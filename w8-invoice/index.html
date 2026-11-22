@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W-8BEN / W-9 &amp; Bilingual USD Invoice Studio — Local-First Web App</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Top Application Bar (Hidden on Print) -->
+    <header class="topbar no-print">
+      <div class="topbar-brand">
+        <div class="brand-mark" aria-hidden="true">XT</div>
+        <div class="brand-copy">
+          <div class="brand-title-row">
+            <h1>Xiatree Tax &amp; Invoice Studio</h1>
+            <span class="badge-pill badge-privacy" title="All data stays inside your browser localStorage">
+              100% Local-First · Zero Cloud Uploads
+            </span>
+          </div>
+          <p class="brand-subtitle">
+            W-8BEN / W-9 Compliance Sheets &amp; Bilingual USD/EUR/GBP Invoices · Print-to-PDF Ready
+          </p>
+        </div>
+      </div>
+
+      <div class="topbar-actions">
+        <div id="license-status-pill" class="license-pill license-free">
+          <span class="status-dot"></span>
+          <span id="license-status-text">Free Edition</span>
+        </div>
+        <button type="button" id="btn-open-pro-modal" class="btn btn-pro">
+          Unlock Pro ($39)
+        </button>
+        <button type="button" id="btn-export-json" class="btn btn-secondary" title="Pro: Export full JSON workspace backup">
+          Backup JSON <span class="pro-tag" data-pro-tag>PRO</span>
+        </button>
+        <label class="btn btn-secondary file-trigger" title="Pro: Restore JSON workspace backup">
+          Restore JSON <span class="pro-tag" data-pro-tag>PRO</span>
+          <input type="file" id="input-import-json" accept="application/json,.json" hidden />
+        </label>
+      </div>
+    </header>
+
+    <!-- Primary Tab Bar & Global Quick Actions (Hidden on Print) -->
+    <nav class="subbar no-print" aria-label="Workspace navigation">
+      <div class="tab-group" role="tablist">
+        <button
+          type="button"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-invoice"
+          id="tab-invoice"
+          class="tab-btn active"
+          data-tab="invoice"
+        >
+          1. USD / Multi-Currency Invoice
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-tax"
+          id="tab-tax"
+          class="tab-btn"
+          data-tab="tax"
+        >
+          2. W-8BEN / W-9 Compliance Sheet
+        </button>
+      </div>
+
+      <div class="subbar-actions">
+        <button type="button" id="btn-load-sample" class="btn btn-ghost">Load Sample</button>
+        <button type="button" id="btn-print-active" class="btn btn-primary">
+          Print / Save PDF
+        </button>
+        <button type="button" id="btn-print-bundle" class="btn btn-accent" title="Pro: Export Invoice + W-8BEN/W-9 as a single 2-page PDF">
+          Print Dual Bundle <span class="pro-tag" data-pro-tag>PRO</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Split Workspace -->
+    <main class="workspace">
+      <!-- LEFT: Interactive Form Editor (Hidden on Print) -->
+      <section class="editor-pane no-print" aria-label="Document Editor">
+        <!-- TAB 1 PANEL: INVOICE BUILDER -->
+        <div id="panel-invoice" class="tab-panel active" role="tabpanel" aria-labelledby="tab-invoice">
+          <!-- Saved Client Profiles Bar -->
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <h2>Saved Client Profiles</h2>
+                <p class="card-hint">
+                  <span id="profile-limit-hint">Free plan: 1 saved client profile · Upgrade to Pro for unlimited</span>
+                </p>
+              </div>
+              <button type="button" id="btn-save-client" class="btn btn-small btn-primary">
+                Save Current Client
+              </button>
+            </div>
+            <div class="profile-controls">
+              <select id="select-client-profile" class="input-control">
+                <option value="">— Select a saved client profile —</option>
+              </select>
+              <button type="button" id="btn-delete-client" class="btn btn-small btn-danger-ghost" disabled>
+                Delete
+              </button>
+            </div>
+          </div>
+
+          <!-- Invoice Metadata & Localization -->
+          <div class="card">
+            <div class="card-header">
+              <h2>Invoice Settings</h2>
+              <button type="button" id="btn-next-inv-num" class="btn btn-small btn-ghost">
+                +1 Invoice #
+              </button>
+            </div>
+            <div class="form-grid cols-2">
+              <label class="field">
+                <span>Invoice Number</span>
+                <input type="text" id="inv-number" data-inv="number" placeholder="INV-2026-001" />
+              </label>
+              <label class="field">
+                <span>Currency</span>
+                <select id="inv-currency" data-inv="currency">
+                  <option value="USD">USD ($) — US Dollar</option>
+                  <option value="EUR">EUR (€) — Euro</option>
+                  <option value="GBP">GBP (£) — British Pound</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Issue Date</span>
+                <input type="date" id="inv-issue-date" data-inv="issueDate" />
+              </label>
+              <label class="field">
+                <span>Due Date</span>
+                <input type="date" id="inv-due-date" data-inv="dueDate" />
+              </label>
+              <label class="field">
+                <span>Payment Terms</span>
+                <select id="inv-terms" data-inv="terms">
+                  <option value="Due on Receipt">Due on Receipt</option>
+                  <option value="Net 7">Net 7 Days</option>
+                  <option value="Net 15">Net 15 Days</option>
+                  <option value="Net 30">Net 30 Days</option>
+                  <option value="50% Upfront / 50% Delivery">50% Upfront / 50% Delivery</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Invoice Label Language</span>
+                <select id="inv-lang" data-inv="languageMode">
+                  <option value="bilingual">Bilingual (English / 中文)</option>
+                  <option value="en">English Only</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <!-- Contractor / Issuer Details -->
+          <div class="card">
+            <div class="card-header">
+              <h2>From (Contractor / Studio)</h2>
+            </div>
+            <div class="form-grid cols-2">
+              <label class="field">
+                <span>Legal / Studio Name</span>
+                <input type="text" id="inv-from-name" data-inv="fromName" placeholder="Kris Fang / Xiatree Technology" />
+              </label>
+              <label class="field">
+                <span>Title / Role</span>
+                <input type="text" id="inv-from-title" data-inv="fromTitle" placeholder="Independent AI Systems Consultant" />
+              </label>
+              <label class="field">
+                <span>Email</span>
+                <input type="email" id="inv-from-email" data-inv="fromEmail" placeholder="billing@xiatree.example" />
+              </label>
+              <label class="field">
+                <span>Country / Region</span>
+                <input type="text" id="inv-from-country" data-inv="fromCountry" placeholder="China" />
+              </label>
+              <label class="field col-span-2">
+                <span>Street Address</span>
+                <input type="text" id="inv-from-address" data-inv="fromAddress" placeholder="Room 802, Hi-Tech Software Park, Shenzhen" />
+              </label>
+              <label class="field">
+                <span>Tax / W-8BEN Ref Note</span>
+                <input type="text" id="inv-from-taxid" data-inv="fromTaxNote" placeholder="W-8BEN On File (Treaty Art. 13)" />
+              </label>
+              <label class="field">
+                <span>Custom Logo URL <span class="pro-tag" data-pro-tag>PRO</span></span>
+                <input type="url" id="inv-logo-url" data-inv="logoUrl" placeholder="https://example.com/logo.png" />
+              </label>
+            </div>
+          </div>
+
+          <!-- Client / Bill To Details -->
+          <div class="card">
+            <div class="card-header">
+              <h2>Bill To (Client)</h2>
+            </div>
+            <div class="form-grid cols-2">
+              <label class="field">
+                <span>Client Company / Name</span>
+                <input type="text" id="inv-to-name" data-inv="toName" placeholder="Acme AI Labs Inc." />
+              </label>
+              <label class="field">
+                <span>Attention / Contact</span>
+                <input type="text" id="inv-to-contact" data-inv="toContact" placeholder="Accounts Payable" />
+              </label>
+              <label class="field">
+                <span>Client Email</span>
+                <input type="email" id="inv-to-email" data-inv="toEmail" placeholder="ap@acme-ai.example" />
+              </label>
+              <label class="field">
+                <span>Client Tax / EIN / VAT</span>
+                <input type="text" id="inv-to-taxid" data-inv="toTaxId" placeholder="EIN 88-1234567" />
+              </label>
+              <label class="field col-span-2">
+                <span>Client Address</span>
+                <input type="text" id="inv-to-address" data-inv="toAddress" placeholder="548 Market St, San Francisco, CA 94104, USA" />
+              </label>
+            </div>
+          </div>
+
+          <!-- Dynamic Line Items -->
+          <div class="card">
+            <div class="card-header">
+              <h2>Line Items</h2>
+              <button type="button" id="btn-add-item" class="btn btn-small btn-primary">+ Add Item</button>
+            </div>
+            <div id="line-items-container" class="line-items-list"></div>
+
+            <div class="form-grid cols-3 totals-inputs">
+              <label class="field">
+                <span>Discount (%)</span>
+                <input type="number" id="inv-discount" data-inv="discountPct" min="0" max="100" step="0.5" />
+              </label>
+              <label class="field">
+                <span>Tax / Withholding (%)</span>
+                <input type="number" id="inv-tax" data-inv="taxPct" min="0" max="100" step="0.5" />
+              </label>
+              <label class="field">
+                <span>Tax Label</span>
+                <input type="text" id="inv-tax-label" data-inv="taxLabel" placeholder="Tax / VAT (0%)" />
+              </label>
+            </div>
+          </div>
+
+          <!-- Payment Instructions & Notes -->
+          <div class="card">
+            <div class="card-header">
+              <h2>Payment Instructions &amp; Notes</h2>
+            </div>
+            <div class="form-grid cols-2">
+              <label class="field">
+                <span>Payment Rail</span>
+                <select id="inv-pay-method" data-inv="paymentMethod">
+                  <option value="PingPong USD Receiving Account">PingPong USD Receiving Account</option>
+                  <option value="Payoneer USD Global Payment">Payoneer USD Global Payment</option>
+                  <option value="US ACH / Domestic Wire">US ACH / Domestic Wire</option>
+                  <option value="International SWIFT Wire">International SWIFT Wire</option>
+                  <option value="Wise Multi-Currency">Wise Multi-Currency</option>
+                  <option value="Custom Instructions">Custom Instructions</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Beneficiary / Account Holder</span>
+                <input type="text" id="inv-pay-beneficiary" data-inv="payBeneficiary" placeholder="Kris Fang" />
+              </label>
+              <label class="field">
+                <span>Bank Name / Provider</span>
+                <input type="text" id="inv-pay-bank" data-inv="payBank" placeholder="First Century Bank / Community Federal" />
+              </label>
+              <label class="field">
+                <span>Account / IBAN / Email</span>
+                <input type="text" id="inv-pay-account" data-inv="payAccount" placeholder="Account # 4012-XXXX-8891" />
+              </label>
+              <label class="field">
+                <span>Routing (ACH/ABA) or SWIFT/BIC</span>
+                <input type="text" id="inv-pay-routing" data-inv="payRouting" placeholder="Routing 061120084 / SWIFT: FCBKUS33" />
+              </label>
+              <label class="field">
+                <span>Payment Reference</span>
+                <input type="text" id="inv-pay-ref" data-inv="payReference" placeholder="Include Invoice # in memo" />
+              </label>
+              <label class="field col-span-2">
+                <span>Project Notes / Terms</span>
+                <textarea id="inv-notes" data-inv="notes" rows="2" placeholder="Thank you for your business. Services performed remotely outside the United States."></textarea>
+              </label>
+            </div>
+          </div>
+
+          <div class="card card-subtle">
+            <div class="card-header">
+              <h2>Print Branding</h2>
+              <label class="checkbox-inline">
+                <input type="checkbox" id="inv-hide-watermark" data-inv="hideWatermark" />
+                <span>Remove Free Watermark <span class="pro-tag" data-pro-tag>PRO</span></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAB 2 PANEL: W-8BEN / W-9 COMPLIANCE SHEET -->
+        <div id="panel-tax" class="tab-panel" role="tabpanel" aria-labelledby="tab-tax">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <h2>Tax Form Classification</h2>
+                <p class="card-hint">
+                  Generates a clean, structured IRS onboarding summary sheet for US clients &amp; platforms.
+                </p>
+              </div>
+            </div>
+            <div class="segmented-control" role="radiogroup" aria-label="Tax form type">
+              <button type="button" class="seg-btn active" data-tax-type="W8BEN" id="btn-type-w8ben">
+                Form W-8BEN (Non-US Individual)
+              </button>
+              <button type="button" class="seg-btn" data-tax-type="W9" id="btn-type-w9">
+                Form W-9 (US Person / Entity)
+              </button>
+            </div>
+          </div>
+
+          <!-- W-8BEN SECTION -->
+          <div id="w8ben-fields" class="tax-fields-group">
+            <div class="card">
+              <div class="card-header">
+                <h2>Part I · Identification of Beneficial Owner</h2>
+              </div>
+              <div class="form-grid cols-2">
+                <label class="field">
+                  <span>1. Full Legal Name</span>
+                  <input type="text" data-w8="fullName" placeholder="Fang Kris (Legal Name on Passport)" />
+                </label>
+                <label class="field">
+                  <span>2. Country of Citizenship</span>
+                  <input type="text" data-w8="citizenship" placeholder="China" />
+                </label>
+                <label class="field col-span-2">
+                  <span>3. Permanent Residence Street Address</span>
+                  <input type="text" data-w8="permStreet" placeholder="No. 188 Keyuan Road, Nanshan District" />
+                </label>
+                <label class="field">
+                  <span>City / Province &amp; Postal Code</span>
+                  <input type="text" data-w8="permCityPostal" placeholder="Shenzhen, Guangdong 518057" />
+                </label>
+                <label class="field">
+                  <span>Country</span>
+                  <input type="text" data-w8="permCountry" placeholder="China" />
+                </label>
+                <label class="field col-span-2 checkbox-inline">
+                  <input type="checkbox" data-w8="mailingSame" />
+                  <span>4. Mailing address is the same as permanent residence address</span>
+                </label>
+                <label class="field col-span-2" id="w8-mailing-wrap">
+                  <span>Mailing Address (if different)</span>
+                  <input type="text" data-w8="mailingAddress" placeholder="Optional mailing address" />
+                </label>
+                <label class="field">
+                  <span>5. U.S. TIN (SSN / ITIN, if any)</span>
+                  <input type="text" data-w8="usTin" placeholder="N/A" />
+                </label>
+                <label class="field">
+                  <span>6a. Foreign TIN (FTIN)</span>
+                  <input type="text" data-w8="foreignTin" placeholder="4403051990XXXXXXXX" />
+                </label>
+                <label class="field checkbox-inline">
+                  <input type="checkbox" data-w8="ftinNotRequired" />
+                  <span>6b. Check if FTIN not legally required</span>
+                </label>
+                <label class="field">
+                  <span>7. Reference Number(s) (Client/Vendor ID)</span>
+                  <input type="text" data-w8="referenceNumber" placeholder="VENDOR-2026-XT" />
+                </label>
+                <label class="field">
+                  <span>8. Date of Birth</span>
+                  <input type="date" data-w8="dateOfBirth" />
+                </label>
+                <label class="field">
+                  <span>Service Location Confirmation</span>
+                  <input type="text" data-w8="serviceLocation" placeholder="100% Performed Outside the United States" />
+                </label>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h2>Part II · Claim of Tax Treaty Benefits</h2>
+              </div>
+              <div class="form-grid cols-2">
+                <label class="field">
+                  <span>9. Treaty Residence Country</span>
+                  <input type="text" data-w8="treatyCountry" placeholder="China" />
+                </label>
+                <label class="field">
+                  <span>10. Treaty Article &amp; Paragraph</span>
+                  <input type="text" data-w8="treatyArticle" placeholder="Article 13 (Independent Personal Services)" />
+                </label>
+                <label class="field">
+                  <span>Withholding Rate Claimed (%)</span>
+                  <input type="text" data-w8="treatyRate" placeholder="0%" />
+                </label>
+                <label class="field">
+                  <span>Type of Income</span>
+                  <input type="text" data-w8="incomeType" placeholder="Remote Software / AI Consulting Fees" />
+                </label>
+                <label class="field col-span-2">
+                  <span>Additional Treaty Conditions / Explanation</span>
+                  <textarea data-w8="treatyExplanation" rows="2" placeholder="Beneficial owner is a resident of the treaty country, performs all services remotely outside the US, and maintains no fixed base in the United States."></textarea>
+                </label>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h2>Part III · Certification &amp; Signature</h2>
+              </div>
+              <div class="form-grid cols-2">
+                <label class="field">
+                  <span>Printed Name of Signer</span>
+                  <input type="text" data-w8="signerName" placeholder="Kris Fang" />
+                </label>
+                <label class="field">
+                  <span>Signature Date</span>
+                  <input type="date" data-w8="signatureDate" />
+                </label>
+                <label class="field col-span-2">
+                  <span>Typed Signature</span>
+                  <input type="text" data-w8="typedSignature" placeholder="/s/ Kris Fang" />
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- W-9 SECTION -->
+          <div id="w9-fields" class="tax-fields-group hidden">
+            <div class="card">
+              <div class="card-header">
+                <h2>Form W-9 · US Taxpayer Identification Summary</h2>
+              </div>
+              <div class="form-grid cols-2">
+                <label class="field col-span-2">
+                  <span>1. Name (as shown on your income tax return)</span>
+                  <input type="text" data-w9="legalName" placeholder="Jane Doe" />
+                </label>
+                <label class="field col-span-2">
+                  <span>2. Business Name / Disregarded Entity Name</span>
+                  <input type="text" data-w9="businessName" placeholder="Doe Advisory LLC" />
+                </label>
+                <label class="field">
+                  <span>3. Federal Tax Classification</span>
+                  <select data-w9="taxClass">
+                    <option value="Individual / Sole Proprietor or Single-Member LLC">Individual / Sole Proprietor / SMLLC</option>
+                    <option value="C Corporation">C Corporation</option>
+                    <option value="S Corporation">S Corporation</option>
+                    <option value="Partnership">Partnership</option>
+                    <option value="LLC (Taxed as S-Corp)">LLC (Taxed as S-Corp)</option>
+                    <option value="LLC (Taxed as C-Corp)">LLC (Taxed as C-Corp)</option>
+                    <option value="Trust / Estate">Trust / Estate</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>4. Exemptions (Payee / FATCA)</span>
+                  <input type="text" data-w9="exemptions" placeholder="None / N/A" />
+                </label>
+                <label class="field col-span-2">
+                  <span>5. Street Address</span>
+                  <input type="text" data-w9="address" placeholder="548 Market St, Suite 400" />
+                </label>
+                <label class="field col-span-2">
+                  <span>6. City, State, and ZIP Code</span>
+                  <input type="text" data-w9="cityStateZip" placeholder="San Francisco, CA 94104" />
+                </label>
+                <label class="field">
+                  <span>TIN Type</span>
+                  <select data-w9="tinType">
+                    <option value="EIN">Employer Identification Number (EIN)</option>
+                    <option value="SSN">Social Security Number (SSN)</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>TIN Value (XX-XXXXXXX or XXX-XX-XXXX)</span>
+                  <input type="text" data-w9="tinValue" placeholder="88-1234567" />
+                </label>
+                <label class="field col-span-2 checkbox-inline">
+                  <input type="checkbox" data-w9="maskTinOnPrint" />
+                  <span>Mask first digits of TIN on printed summary (e.g., **-***4567)</span>
+                </label>
+                <label class="field">
+                  <span>Signature / Printed Name</span>
+                  <input type="text" data-w9="signatureName" placeholder="/s/ Jane Doe" />
+                </label>
+                <label class="field">
+                  <span>Signature Date</span>
+                  <input type="date" data-w9="signatureDate" />
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT: Live A4 Printable Document Preview -->
+      <section class="preview-pane" aria-label="Live Printable Document Preview">
+        <div class="preview-toolbar no-print">
+          <span id="preview-mode-label" class="preview-pill">A4 Live Preview · Invoice</span>
+          <span class="preview-tip">Use Ctrl/Cmd + P or click “Print / Save PDF” for crisp vector PDF</span>
+        </div>
+
+        <div id="print-root" class="print-root">
+          <!-- A4 Sheet 1: Invoice -->
+          <article id="sheet-invoice" class="a4-sheet active-sheet"></article>
+
+          <!-- A4 Sheet 2: W-8BEN / W-9 Compliance Summary -->
+          <article id="sheet-tax" class="a4-sheet"></article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pro Upgrade & Gumroad License Modal -->
+    <div id="pro-modal" class="modal-backdrop hidden no-print" role="dialog" aria-modal="true" aria-labelledby="pro-modal-title">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div>
+            <span class="badge-pill badge-pro">PRO LIFETIME · $39 USD</span>
+            <h2 id="pro-modal-title">Unlock Xiatree Studio Pro</h2>
+          </div>
+          <button type="button" id="btn-close-pro-modal" class="btn-icon" aria-label="Close modal">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <p class="modal-lead">
+            One-time lifetime license. Zero subscriptions, zero telemetry, 100% client-side verification.
+          </p>
+          <ul class="pro-feature-list">
+            <li><strong>Unlimited Saved Client Profiles</strong> (Free includes 1 profile)</li>
+            <li><strong>Remove Print Watermark</strong> for clean white-label client PDFs</li>
+            <li><strong>Custom Company Logo URL</strong> on every printed invoice</li>
+            <li><strong>JSON Workspace Backup &amp; Restore</strong> for portable multi-device archives</li>
+            <li><strong>Dual W-8BEN / W-9 + Invoice Bundle PDF</strong> (one-click 2-page onboarding pack)</li>
+          </ul>
+
+          <div class="license-box">
+            <label class="field">
+              <span>Enter Gumroad License Key</span>
+              <div class="license-input-row">
+                <input type="text" id="input-license-key" placeholder="XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX" autocomplete="off" />
+                <button type="button" id="btn-verify-license" class="btn btn-primary">Activate</button>
+              </div>
+            </label>
+            <div id="license-feedback" class="license-feedback" aria-live="polite"></div>
+          </div>
+
+          <div id="pro-active-controls" class="pro-active-controls hidden">
+            <p class="pro-verified-note">
+              Pro License Active on this browser. Key: <code id="active-key-masked"></code>
+            </p>
+            <button type="button" id="btn-deactivate-license" class="btn btn-small btn-danger-ghost">
+              Deactivate License on This Device
+            </button>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <a
+            id="gumroad-buy-link"
+            class="btn btn-pro"
+            href="https://gumroad.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Pro License ($39) on Gumroad
+          </a>
+          <button type="button" id="btn-modal-done" class="btn btn-secondary">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden no-print" role="status" aria-live="polite"></div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
