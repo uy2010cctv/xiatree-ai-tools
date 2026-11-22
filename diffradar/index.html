@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DiffRadar AI — Never Miss a Competitor Pricing or Positioning Change Again</title>
+<meta name="description" content="100% local-first Chrome extension. Visually pick any competitor pricing grid, run automatic background diff checks right inside Chrome, and push alerts straight to Desktop, Slack, or Discord — zero cloud server required.">
+<style>
+:root{--bg:#0b0f17;--panel:#121826;--border:#232d42;--text:#e2e8f0;--muted:#94a3b8;--acc:#f59e0b;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.65;}
+.wrap{max-width:960px;margin:0 auto;padding:44px 24px 80px;}
+nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:52px;flex-wrap:wrap;gap:12px;}
+.logo{font-size:20px;font-weight:800;color:#fff;text-decoration:none;} .logo span{color:var(--acc);}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px;}
+nav a:hover{color:#fff;}
+.hero{text-align:center;margin-bottom:52px;}
+.pill{display:inline-block;padding:5px 14px;border-radius:999px;border:1px solid var(--border);color:var(--acc);font-size:12px;font-weight:700;margin-bottom:16px;}
+h1{font-size:40px;line-height:1.2;color:#fff;margin-bottom:16px;}
+.hero p{font-size:17px;color:var(--muted);max-width:700px;margin:0 auto 28px;}
+.cta{display:inline-block;background:var(--acc);color:#0b0f17;font-weight:800;padding:13px 26px;border-radius:10px;text-decoration:none;font-size:15px;}
+.cta.outline{background:transparent;color:var(--text);border:1px solid var(--border);margin-left:10px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-bottom:50px;}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-bottom:50px;}
+.card,.plan{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:24px;}
+.plan.highlight{border-color:var(--acc);}
+.card h3,.plan h3{color:#fff;margin-bottom:8px;font-size:18px;}
+.card p,.plan .sub{color:var(--muted);font-size:14px;}
+.price{font-size:34px;font-weight:800;color:var(--acc);margin:10px 0 4px;}
+.plan ul{margin:14px 0 20px;padding-left:18px;color:#cbd5e1;font-size:14px;}
+.plan li{margin-bottom:6px;}
+footer{border-top:1px solid var(--border);padding-top:24px;margin-top:40px;font-size:13px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+footer a{color:var(--muted);margin-right:16px;text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="../">DiffRadar AI <span>MV3</span></a>
+    <div><a href="../">All Tools</a><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms &amp; Refunds</a></div>
+  </nav>
+  <section class="hero">
+    <div class="pill">100% Local-First Chrome Extension · Zero Cloud Tracking</div>
+    <h1>Never Miss a Competitor Pricing or Positioning Change Again</h1>
+    <p>100% local-first Chrome extension. Visually pick any competitor pricing grid, run automatic background diff checks right inside Chrome, and push alerts straight to Desktop, Slack, or Discord — zero cloud server required.</p>
+    <a class="cta" href="https://lichenkris.gumroad.com/l/diffradar-pro" target="_blank" rel="noopener">Get Founder Lifetime Key ($29) &rarr;</a>
+    <a class="cta outline" href="#features">Explore Features</a>
+  </section>
+  <section id="features" class="grid"><div class="card"><h3>Visual Element Picker</h3><p>Point and click any pricing tier or hero banner — DiffRadar builds a resilient CSS selector automatically.</p></div><div class="card"><h3>Scheduled Local Checks</h3><p>Runs automatically inside your browser via Chrome Alarms with desktop notifications and unread badge counters.</p></div><div class="card"><h3>Direct Webhooks & BYOK AI</h3><p>Push diffs straight to your own Slack/Discord/Feishu webhook and optionally summarize using your own API key.</p></div></section>
+  <section id="pricing" class="grid2">
+    <div class="plan">
+      <h3>Free</h3>
+      <div class="price">$0</div>
+      <p class="sub">Install free from Chrome Web Store</p>
+      <ul><li>Up to 3 watched competitor URLs</li><li>Visual element picker & resilient CSS selector</li><li>On-demand local line-by-line diff viewer</li></ul>
+    </div>
+    <div class="plan highlight">
+      <h3>Founder Lifetime License</h3>
+      <div class="price">$29 <span style="font-size:15px;font-weight:500;color:#94a3b8;">one-time</span></div>
+      <p class="sub">Zero recurring subscription · Instant Gumroad license key</p>
+      <ul><li>Up to 100 watched URLs</li><li>Automated Hourly / 6h / Daily background checks</li><li>Desktop + direct Slack / Discord / Feishu webhook alerts</li><li>Optional BYOK AI plain-English diff briefs · 14-day refund</li></ul>
+      <a class="cta" style="width:100%;text-align:center;" href="https://lichenkris.gumroad.com/l/diffradar-pro" target="_blank" rel="noopener">Unlock Lifetime Pro ($29) &rarr;</a>
+    </div>
+  </section>
+  <footer>
+    <div>&copy; 2026 Xiatree Technology (Shenzhen) Co., Ltd. · Built by Kris Fang (Huawei AI HCIE)</div>
+    <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; 14-Day Refund</a><a href="https://lichenkris.gumroad.com" target="_blank" rel="noopener">Gumroad Store</a></div>
+  </footer>
+</div>
+</body>
+</html>
