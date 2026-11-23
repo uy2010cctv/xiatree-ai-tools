@@ -7,8 +7,8 @@
 
 const STORAGE_KEY = "xiatree_w8_invoice_studio_v1";
 const GUMROAD_VERIFY_URL = "https://api.gumroad.com/v2/licenses/verify";
-const GUMROAD_PRODUCT_ID = "w8ben-usd-invoice-local-webapp";
-const GUMROAD_PRODUCT_URL = "https://gumroad.com/";
+const GUMROAD_PRODUCT_ID = "IlHpL5Lwv4cXffHzvynsXw==";
+const GUMROAD_PRODUCT_URL = "https://lichenkris.gumroad.com/l/w8ben-usd-invoice-local-webapp";
 const MAX_FREE_CLIENT_PROFILES = 1;
 
 // Instant verification test key for local QA and evaluator smoke tests
