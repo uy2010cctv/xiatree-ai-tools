@@ -1,0 +1,866 @@
+[
+  {
+    "word": "银行",
+    "pinyin": "yínháng",
+    "english": "bank",
+    "example": "今天下午我要先去银行，再去超市买水果。",
+    "followUp": "你一般什么时候买东西？",
+    "level": 3,
+    "usage": "Keep the order of the two errands. Pause after 银行, without dropping the second 去. The task is repetition, so adding a reason would change the source."
+  },
+  {
+    "word": "超市",
+    "pinyin": "chāoshì",
+    "english": "supermarket",
+    "example": "今天下午我要先去银行，再去超市买水果。",
+    "followUp": "你一般什么时候买东西？",
+    "level": 3,
+    "usage": "Keep the order of the two errands. Pause after 银行, without dropping the second 去. The task is repetition, so adding a reason would change the source."
+  },
+  {
+    "word": "路口",
+    "pinyin": "lùkǒu",
+    "english": "junction",
+    "example": "请在前面的路口向左拐，地铁站就在右边。",
+    "followUp": "从你家到车站怎么走？",
+    "level": 3,
+    "usage": "Listen for the contrast between 左 and 右. Group the location phrase before the action rather than translating an English word order."
+  },
+  {
+    "word": "地铁站",
+    "pinyin": "dìtiězhàn",
+    "english": "metro station",
+    "example": "请在前面的路口向左拐，地铁站就在右边。",
+    "followUp": "从你家到车站怎么走？",
+    "level": 3,
+    "usage": "Listen for the contrast between 左 and 右. Group the location phrase before the action rather than translating an English word order."
+  },
+  {
+    "word": "清楚",
+    "pinyin": "qīngchu",
+    "english": "clear",
+    "example": "我没听清楚老师的问题，同桌又说了一遍。",
+    "followUp": "没听懂的时候你会怎么办？",
+    "level": 3,
+    "usage": "听清楚 is a result complement: the issue is clarity, not whether hearing happened. Keep 没 and 又; they explain the small sequence of events."
+  },
+  {
+    "word": "同桌",
+    "pinyin": "tóngzhuō",
+    "english": "desk mate",
+    "example": "我没听清楚老师的问题，同桌又说了一遍。",
+    "followUp": "没听懂的时候你会怎么办？",
+    "level": 3,
+    "usage": "听清楚 is a result complement: the issue is clarity, not whether hearing happened. Keep 没 and 又; they explain the small sequence of events."
+  },
+  {
+    "word": "然后",
+    "pinyin": "ránhòu",
+    "english": "then",
+    "example": "每天早上，我先喝一杯水，然后走路去学校。",
+    "followUp": "你早上做的第一件事是什么？",
+    "level": 3,
+    "usage": "Read in thought groups: time, first action, next action. 一杯 is normally yì bēi in connected speech. Do not give every character equal stress."
+  },
+  {
+    "word": "走路",
+    "pinyin": "zǒulù",
+    "english": "walk",
+    "example": "每天早上，我先喝一杯水，然后走路去学校。",
+    "followUp": "你早上做的第一件事是什么？",
+    "level": 3,
+    "usage": "Read in thought groups: time, first action, next action. 一杯 is normally yì bēi in connected speech. Do not give every character equal stress."
+  },
+  {
+    "word": "生日",
+    "pinyin": "shēngrì",
+    "english": "birthday",
+    "example": "周六是我的生日。",
+    "followUp": "你喜欢怎么过生日？",
+    "level": 3,
+    "usage": "Let the full stop close the first idea. 朋友 has a light second syllable. Keep the final sentence inviting, rather than speeding through it."
+  },
+  {
+    "word": "面条",
+    "pinyin": "miàntiáo",
+    "english": "noodles",
+    "example": "我想请几个朋友来家里吃饭，大家一起做面条。",
+    "followUp": "你喜欢怎么过生日？",
+    "level": 3,
+    "usage": "Let the full stop close the first idea. 朋友 has a light second syllable. Keep the final sentence inviting, rather than speeding through it."
+  },
+  {
+    "word": "还书",
+    "pinyin": "huán shū",
+    "english": "return books",
+    "example": "还书以后，请把桌子上的东西带走。",
+    "followUp": "你常去图书馆吗？为什么？",
+    "level": 3,
+    "usage": "还 is huán here because it means return. Read the 把 phrase as one unit and leave time for the result 带走."
+  },
+  {
+    "word": "关门",
+    "pinyin": "guānmén",
+    "english": "close",
+    "example": "图书馆下午六点关门。",
+    "followUp": "你常去图书馆吗？为什么？",
+    "level": 3,
+    "usage": "还 is huán here because it means return. Read the 把 phrase as one unit and leave time for the result 带走."
+  },
+  {
+    "word": "左边",
+    "pinyin": "zuǒbian",
+    "english": "on the left",
+    "example": "左边的人正在看电脑，右边的人拿着一本书。",
+    "followUp": "你喜欢在哪里学习？",
+    "level": 3,
+    "usage": "Start with people and place. Use 正在 for an action and 有 for an object. 可能 marks a sensible guess; do not state an invented relationship as visible fact."
+  },
+  {
+    "word": "安静",
+    "pinyin": "ānjìng",
+    "english": "quiet",
+    "example": "我也喜欢在安静的地方看书。",
+    "followUp": "你喜欢在哪里学习？",
+    "level": 3,
+    "usage": "Start with people and place. Use 正在 for an action and 有 for an object. 可能 marks a sensible guess; do not state an invented relationship as visible fact."
+  },
+  {
+    "word": "旁边",
+    "pinyin": "pángbiān",
+    "english": "beside",
+    "example": "一个人站在车站旁边，手里拿着一把伞。",
+    "followUp": "下雨天你怎么去学校？",
+    "level": 3,
+    "usage": "Describe the rain and umbrella before guessing the purpose. 一把伞 uses 把 as a classifier. One personal sentence is enough after the visible details."
+  },
+  {
+    "word": "雨伞",
+    "pinyin": "yǔsǎn",
+    "english": "umbrella",
+    "example": "下雨了，出门时别忘了带雨伞。",
+    "followUp": "下雨天你怎么去学校？",
+    "level": 3,
+    "usage": "Describe the rain and umbrella before guessing the purpose. 一把伞 uses 把 as a classifier. One personal sentence is enough after the visible details."
+  },
+  {
+    "word": "顾客",
+    "pinyin": "gùkè",
+    "english": "customer",
+    "example": "水果店里有一位顾客和一位店员。",
+    "followUp": "你买水果时最关心什么？",
+    "level": 3,
+    "usage": "Anchor the description in the pointing hand and scale. Use 位 politely for people. Finish with a relevant buying habit instead of listing unrelated foods."
+  },
+  {
+    "word": "苹果",
+    "pinyin": "píngguǒ",
+    "english": "apple",
+    "example": "顾客指着苹果，店员正在称水果。",
+    "followUp": "你买水果时最关心什么？",
+    "level": 3,
+    "usage": "Anchor the description in the pointing hand and scale. Use 位 politely for people. Finish with a relevant buying habit instead of listing unrelated foods."
+  },
+  {
+    "word": "复习",
+    "pinyin": "fùxí",
+    "english": "review",
+    "example": "上周我在图书馆复习了两个小时，做完了作业。",
+    "followUp": "如果图书馆很远，你还会去吗？",
+    "level": 3,
+    "usage": "Answer the choice immediately, then give two concrete reasons. The final exception adds balance without changing the main answer. Use 还是 for the question, not to link your reasons."
+  },
+  {
+    "word": "影响",
+    "pinyin": "yǐngxiǎng",
+    "english": "affect",
+    "example": "不过，如果我要练习口语，我会在家学习，因为说话不会影响别人。",
+    "followUp": "如果图书馆很远，你还会去吗？",
+    "level": 3,
+    "usage": "Answer the choice immediately, then give two concrete reasons. The final exception adds balance without changing the main answer. Use 还是 for the question, not to link your reasons."
+  },
+  {
+    "word": "最近",
+    "pinyin": "zuìjìn",
+    "english": "recently",
+    "example": "我最近买了一个水杯。",
+    "followUp": "你会把它推荐给谁？",
+    "level": 3,
+    "usage": "Use a before-and-after contrast to explain usefulness. Name one object, one change, and one incident. 不一定 is a qualified conclusion rather than an absolute claim."
+  },
+  {
+    "word": "方便",
+    "pinyin": "fāngbiàn",
+    "english": "convenient",
+    "example": "以前我出门常常买瓶装水，花钱也不方便。",
+    "followUp": "你会把它推荐给谁？",
+    "level": 3,
+    "usage": "Use a before-and-after contrast to explain usefulness. Name one object, one change, and one incident. 不一定 is a qualified conclusion rather than an absolute claim."
+  },
+  {
+    "word": "互相",
+    "pinyin": "hùxiāng",
+    "english": "each other",
+    "example": "我们可以互相问问题，也可以练习对话。",
+    "followUp": "朋友没有时间时，你会怎么练习？",
+    "level": 3,
+    "usage": "Support the benefit with a small incident. The practical schedule makes the answer complete. Keep 互相 attached to something both people can do."
+  },
+  {
+    "word": "坚持",
+    "pinyin": "jiānchí",
+    "english": "keep going",
+    "example": "我想每周一起练习两次，每次半个小时，这样比较容易坚持。",
+    "followUp": "朋友没有时间时，你会怎么练习？",
+    "level": 3,
+    "usage": "Support the benefit with a small incident. The practical schedule makes the answer complete. Keep 互相 attached to something both people can do."
+  },
+  {
+    "word": "快递员",
+    "pinyin": "kuàidìyuán",
+    "english": "courier",
+    "example": "快递员把书放在门口，并发消息通知他。",
+    "followUp": "如果包裹丢了，应该怎么办？",
+    "level": 4,
+    "usage": "This is retelling, not verbatim repetition. Preserve arrival, temporary absence, notification and collection. 取回 can become 拿回 without losing the event."
+  },
+  {
+    "word": "通知",
+    "pinyin": "tōngzhī",
+    "english": "notify",
+    "example": "快递员把书放在门口，并发消息通知他。",
+    "followUp": "如果包裹丢了，应该怎么办？",
+    "level": 4,
+    "usage": "This is retelling, not verbatim repetition. Preserve arrival, temporary absence, notification and collection. 取回 can become 拿回 without losing the event."
+  },
+  {
+    "word": "提前",
+    "pinyin": "tíqián",
+    "english": "move earlier",
+    "example": "王女士本来要坐十点的火车，后来会议时间提前，她就换成了八点的车。",
+    "followUp": "你怎样避免迟到？",
+    "level": 4,
+    "usage": "Keep both times and the cause of the change. Do not turn an earlier meeting into a delayed train. 本来 and 后来 provide a clean contrast."
+  },
+  {
+    "word": "准时",
+    "pinyin": "zhǔnshí",
+    "english": "on time",
+    "example": "她因此早起了两个小时，最后准时到达公司。",
+    "followUp": "你怎样避免迟到？",
+    "level": 4,
+    "usage": "Keep both times and the cause of the change. Do not turn an earlier meeting into a delayed train. 本来 and 后来 provide a clean contrast."
+  },
+  {
+    "word": "维修",
+    "pinyin": "wéixiū",
+    "english": "repair",
+    "example": "小周先找了学校的维修人员，风扇第二天就修好了。",
+    "followUp": "什么东西值得修理？",
+    "level": 4,
+    "usage": "Keep the decision, intervention and result. The story does not say the repair was free, only that replacement money was saved; do not invent a repair price."
+  },
+  {
+    "word": "省钱",
+    "pinyin": "shěng qián",
+    "english": "save money",
+    "example": "先修理旧风扇，比马上买新的更省钱。",
+    "followUp": "什么东西值得修理？",
+    "level": 4,
+    "usage": "Keep the decision, intervention and result. The story does not say the repair was free, only that replacement money was saved; do not invent a repair price."
+  },
+  {
+    "word": "居民",
+    "pinyin": "jūmín",
+    "english": "resident",
+    "example": "居民不仅可以种菜，还能认识邻居。",
+    "followUp": "你愿意参加社区活动吗？",
+    "level": 4,
+    "usage": "This is supplemental reading practice at level 4, not a claim that the official level 4 paper includes reading aloud. Link 不仅 with 还, then lower the voice to finish the contrast."
+  },
+  {
+    "word": "收获",
+    "pinyin": "shōuhuò",
+    "english": "harvest",
+    "example": "虽然每次收获不多，大家却觉得生活更有意思了。",
+    "followUp": "你愿意参加社区活动吗？",
+    "level": 4,
+    "usage": "This is supplemental reading practice at level 4, not a claim that the official level 4 paper includes reading aloud. Link 不仅 with 还, then lower the voice to finish the contrast."
+  },
+  {
+    "word": "面试",
+    "pinyin": "miànshì",
+    "english": "interview",
+    "example": "第一次面试时，我只准备了自己的优点。",
+    "followUp": "你怎样准备一次面试？",
+    "level": 4,
+    "usage": "Leave a short pause after the time clauses. 准备 has a third tone followed by a fourth tone: finish the dip without stretching it into two beats."
+  },
+  {
+    "word": "经历",
+    "pinyin": "jīnglì",
+    "english": "experience",
+    "example": "从那以后，我学会了用真实经历说明自己解决问题的能力。",
+    "followUp": "你怎样准备一次面试？",
+    "level": 4,
+    "usage": "Leave a short pause after the time clauses. 准备 has a third tone followed by a fourth tone: finish the dip without stretching it into two beats."
+  },
+  {
+    "word": "耳机",
+    "pinyin": "ěrjī",
+    "english": "headphones",
+    "example": "戴上耳机、调低音量，看起来是小事，却能让同一节车厢里的人都更舒服。",
+    "followUp": "公共场所应该遵守什么规则？",
+    "level": 4,
+    "usage": "Keep the two 有人 clauses parallel. 调 is tiáo when adjusting volume. Do not break the long noun phrase 同一节车厢里的人 after 里."
+  },
+  {
+    "word": "音量",
+    "pinyin": "yīnliàng",
+    "english": "volume",
+    "example": "戴上耳机、调低音量，看起来是小事，却能让同一节车厢里的人都更舒服。",
+    "followUp": "公共场所应该遵守什么规则？",
+    "level": 4,
+    "usage": "Keep the two 有人 clauses parallel. 调 is tiáo when adjusting volume. Do not break the long noun phrase 同一节车厢里的人 after 里."
+  },
+  {
+    "word": "合作",
+    "pinyin": "hézuò",
+    "english": "cooperate",
+    "example": "如果是在合作学习，一个人可以负责查找，另一个人整理重点。",
+    "followUp": "合作时意见不同怎么办？",
+    "level": 4,
+    "usage": "Move from visible evidence to a clearly signposted possibility. Use 一个…另一个… to organize people. Avoid describing a relationship as if the illustration proves it."
+  },
+  {
+    "word": "资料",
+    "pinyin": "zīliào",
+    "english": "reference material",
+    "example": "他们可能在为同一个任务查资料。",
+    "followUp": "合作时意见不同怎么办？",
+    "level": 4,
+    "usage": "Move from visible evidence to a clearly signposted possibility. Use 一个…另一个… to organize people. Avoid describing a relationship as if the illustration proves it."
+  },
+  {
+    "word": "建议",
+    "pinyin": "jiànyì",
+    "english": "suggestion",
+    "example": "下雨时地面容易滑，我建议他等车停稳以后再往前走。",
+    "followUp": "如果等了很久还没有车，你会怎么办？",
+    "level": 4,
+    "usage": "Keep speculation brief. The advice must connect to the visible rain and approaching vehicle. 既…也… works only when the two benefits belong to the same action."
+  },
+  {
+    "word": "安全",
+    "pinyin": "ānquán",
+    "english": "safe",
+    "example": "这样既不会淋太多雨，也比较安全。",
+    "followUp": "如果等了很久还没有车，你会怎么办？",
+    "level": 4,
+    "usage": "Keep speculation brief. The advice must connect to the visible rain and approaching vehicle. 既…也… works only when the two benefits belong to the same action."
+  },
+  {
+    "word": "新鲜",
+    "pinyin": "xīnxiān",
+    "english": "fresh",
+    "example": "如果是我，我会先问价格，再看看水果是否新鲜。",
+    "followUp": "价格和质量哪个更重要？",
+    "level": 4,
+    "usage": "Use specific visible actions, then explain a purchasing rule. 是否 introduces a yes-or-no issue inside a sentence. Finish by relating quantity to waste."
+  },
+  {
+    "word": "浪费",
+    "pinyin": "làngfèi",
+    "english": "waste",
+    "example": "买得太多吃不完，反而会浪费。",
+    "followUp": "价格和质量哪个更重要？",
+    "level": 4,
+    "usage": "Use specific visible actions, then explain a purchasing rule. 是否 introduces a yes-or-no issue inside a sentence. Finish by relating quantity to waste."
+  },
+  {
+    "word": "截止时间",
+    "pinyin": "jiézhǐ shíjiān",
+    "english": "deadline",
+    "example": "有一次，我把小组作业的截止时间记错了，以为星期五才交，实际上星期四就到期了。",
+    "followUp": "如果队友犯了同样的错误呢？",
+    "level": 4,
+    "usage": "Use situation, action, consequence and lesson. Keeping the imperfect result makes the story credible. 截止时间 is the deadline, while 到期 describes it being reached."
+  },
+  {
+    "word": "分配",
+    "pinyin": "fēnpèi",
+    "english": "allocate",
+    "example": "我发现以后先向同学说明情况，再和大家分配剩下的任务。",
+    "followUp": "如果队友犯了同样的错误呢？",
+    "level": 4,
+    "usage": "Use situation, action, consequence and lesson. Keeping the imperfect result makes the story credible. 截止时间 is the deadline, while 到期 describes it being reached."
+  },
+  {
+    "word": "前提",
+    "pinyin": "qiántí",
+    "english": "precondition",
+    "example": "我基本支持，但前提是公共交通足够方便。",
+    "followUp": "公交费用提高会影响你的看法吗？",
+    "level": 4,
+    "usage": "State a conditional position rather than an absolute slogan. A concrete local example supports the benefit; the accessibility exception supports the policy sequence."
+  },
+  {
+    "word": "逐步",
+    "pinyin": "zhúbù",
+    "english": "gradually",
+    "example": "因此，我认为应该先增加公交线路，再逐步限制汽车，而不是突然禁止所有车辆。",
+    "followUp": "公交费用提高会影响你的看法吗？",
+    "level": 4,
+    "usage": "State a conditional position rather than an absolute slogan. A concrete local example supports the benefit; the accessibility exception supports the policy sequence."
+  },
+  {
+    "word": "灵活",
+    "pinyin": "línghuó",
+    "english": "flexible",
+    "example": "线上课程的优点是时间灵活，听不懂的地方还可以反复看。",
+    "followUp": "什么内容最适合在线学习？",
+    "level": 4,
+    "usage": "Distinguish recorded content from live interaction. The conclusion combines methods instead of repeating both lists. 完全 is the key qualifier in the question."
+  },
+  {
+    "word": "结合",
+    "pinyin": "jiéhé",
+    "english": "combine",
+    "example": "所以我更愿意把两种方式结合起来：在网上预习，在课堂上练习和提问。",
+    "followUp": "什么内容最适合在线学习？",
+    "level": 4,
+    "usage": "Distinguish recorded content from live interaction. The conclusion combines methods instead of repeating both lists. 完全 is the key qualifier in the question."
+  },
+  {
+    "word": "延长",
+    "pinyin": "yáncháng",
+    "english": "extend",
+    "example": "图书馆决定把开放时间延长三个小时。",
+    "followUp": "如何判断这项服务是否值得保留？",
+    "level": 5,
+    "usage": "Retain the concern, evidence and decision. Three hours later is an accurate compression of six to nine. Do not claim that all library services remain open at night."
+  },
+  {
+    "word": "成本",
+    "pinyin": "chéngběn",
+    "english": "cost",
+    "example": "虽然最初担心成本上涨，但一个月的试行表明，晚间需求确实很大，尤其是下班后的年轻人。",
+    "followUp": "如何判断这项服务是否值得保留？",
+    "level": 5,
+    "usage": "Retain the concern, evidence and decision. Three hours later is an accurate compression of six to nine. Do not claim that all library services remain open at night."
+  },
+  {
+    "word": "包装",
+    "pinyin": "bāozhuāng",
+    "english": "packaging",
+    "example": "小店的新环保包装不够方便，受到顾客批评。",
+    "followUp": "环保设计应该先解决什么问题？",
+    "level": 5,
+    "usage": "The improvement has two features, not just less material. 恢复 means recovering, not breaking a sales record. Keep the customer's role in the experiment."
+  },
+  {
+    "word": "兼顾",
+    "pinyin": "jiāngù",
+    "english": "take both into account",
+    "example": "新包装兼顾了环保和使用体验，销量随后慢慢恢复。",
+    "followUp": "环保设计应该先解决什么问题？",
+    "level": 5,
+    "usage": "The improvement has two features, not just less material. 恢复 means recovering, not breaking a sales record. Keep the customer's role in the experiment."
+  },
+  {
+    "word": "志愿者",
+    "pinyin": "zhìyuànzhě",
+    "english": "volunteer",
+    "example": "大学生志愿者起初讲解手机操作太快，老人难以记住。",
+    "followUp": "你会怎样检查别人是否学会了？",
+    "level": 5,
+    "usage": "Do not omit the independent practice: it explains why the new method worked. Retain both practical independence and peer support as outcomes."
+  },
+  {
+    "word": "独立",
+    "pinyin": "dúlì",
+    "english": "independent",
+    "example": "看完图片说明以后，请你独立完成操作。",
+    "followUp": "你会怎样检查别人是否学会了？",
+    "level": 5,
+    "usage": "Do not omit the independent practice: it explains why the new method worked. Retain both practical independence and peer support as outcomes."
+  },
+  {
+    "word": "补救",
+    "pinyin": "bǔjiù",
+    "english": "remedy",
+    "example": "因此，承认责任、提出具体的补救办法，并在之后兑现承诺，往往比反复解释自己的动机更重要。",
+    "followUp": "怎样的道歉让你觉得有诚意？",
+    "level": 5,
+    "usage": "Pause before the three parallel actions. Hold the comparison open until 更重要. Avoid turning every comma into a full stop, which obscures the argument."
+  },
+  {
+    "word": "承诺",
+    "pinyin": "chéngnuò",
+    "english": "promise",
+    "example": "因此，承认责任、提出具体的补救办法，并在之后兑现承诺，往往比反复解释自己的动机更重要。",
+    "followUp": "怎样的道歉让你觉得有诚意？",
+    "level": 5,
+    "usage": "Pause before the three parallel actions. Hold the comparison open until 更重要. Avoid turning every comma into a full stop, which obscures the argument."
+  },
+  {
+    "word": "优先",
+    "pinyin": "yōuxiān",
+    "english": "prioritize",
+    "example": "适当暂停，重新安排优先顺序，有时反而能让之后的努力更有方向。",
+    "followUp": "你如何区分忙碌与有效率？",
+    "level": 5,
+    "usage": "Contrast 忙碌 with 进展 through stress rather than volume. Separate 重新安排 from 优先顺序 at the phrase boundary, not inside either word."
+  },
+  {
+    "word": "进展",
+    "pinyin": "jìnzhǎn",
+    "english": "progress",
+    "example": "忙碌容易让人产生充实的感觉，却未必意味着真正取得了进展。",
+    "followUp": "你如何区分忙碌与有效率？",
+    "level": 5,
+    "usage": "Contrast 忙碌 with 进展 through stress rather than volume. Separate 重新安排 from 优先顺序 at the phrase boundary, not inside either word."
+  },
+  {
+    "word": "取决于",
+    "pinyin": "qǔjué yú",
+    "english": "depend on",
+    "example": "旅行的收获，不一定取决于走了多远，还在于观察得有多仔细。",
+    "followUp": "你喜欢紧凑还是宽松的旅行安排？",
+    "level": 5,
+    "usage": "Carry 相反 into the next clause. Observe the rising shape of the second syllable of 观察, and avoid adding syllables to 取决于."
+  },
+  {
+    "word": "观察",
+    "pinyin": "guānchá",
+    "english": "observe",
+    "example": "旅行的收获，不一定取决于走了多远，还在于观察得有多仔细。",
+    "followUp": "你喜欢紧凑还是宽松的旅行安排？",
+    "level": 5,
+    "usage": "Carry 相反 into the next clause. Observe the rising shape of the second syllable of 观察, and avoid adding syllables to 取决于."
+  },
+  {
+    "word": "利弊",
+    "pinyin": "lìbì",
+    "english": "pros and cons",
+    "example": "选择在咖啡馆工作以前，要考虑这种方式的利弊。",
+    "followUp": "什么工作不适合在公共场所完成？",
+    "level": 5,
+    "usage": "Separate observation, alternative interpretations and evaluation. Your privacy point is a general consideration, not something the picture proves. Keep the evaluation connected to the visible shared workspace."
+  },
+  {
+    "word": "稳定",
+    "pinyin": "wěndìng",
+    "english": "stable",
+    "example": "在公共空间工作，可以改变环境，减少独自在家的沉闷感；但噪声、座位和网络都不一定稳定。",
+    "followUp": "什么工作不适合在公共场所完成？",
+    "level": 5,
+    "usage": "Separate observation, alternative interpretations and evaluation. Your privacy point is a general consideration, not something the picture proves. Keep the evaluation connected to the visible shared workspace."
+  },
+  {
+    "word": "乘客",
+    "pinyin": "chéngkè",
+    "english": "passenger",
+    "example": "画面中，一位乘客撑伞等车，公共汽车正在接近。",
+    "followUp": "预算有限时应先改善哪一项？",
+    "level": 5,
+    "usage": "Bridge from weather to access through an explicit reason. The picture does not show all the barriers you discuss, so introduce them as design considerations rather than observed defects."
+  },
+  {
+    "word": "障碍",
+    "pinyin": "zhàng'ài",
+    "english": "barrier",
+    "example": "我认为改善交通服务，应先检查最基本的使用障碍，再增加复杂的新功能。",
+    "followUp": "预算有限时应先改善哪一项？",
+    "level": 5,
+    "usage": "Bridge from weather to access through an explicit reason. The picture does not show all the barriers you discuss, so introduce them as design considerations rather than observed defects."
+  },
+  {
+    "word": "适量",
+    "pinyin": "shìliàng",
+    "english": "a suitable amount",
+    "example": "减少食物浪费不一定需要复杂的方法：购物前看看家里还剩什么，买适量的当季水果，把容易坏的先吃掉，都是可行的做法。",
+    "followUp": "商家应不应该为食物浪费负责？",
+    "level": 5,
+    "usage": "Build the argument around adjustable quantity, which the scale supports. Use 可行 for practical actions. 越…越… describes the tempting belief, not your final conclusion."
+  },
+  {
+    "word": "划算",
+    "pinyin": "huásuàn",
+    "english": "good value",
+    "example": "有时促销让我们觉得买得越多越划算，可是如果最后吃不完，实际花费反而更高。",
+    "followUp": "商家应不应该为食物浪费负责？",
+    "level": 5,
+    "usage": "Build the argument around adjustable quantity, which the scale supports. Use 可行 for practical actions. 越…越… describes the tempting belief, not your final conclusion."
+  },
+  {
+    "word": "压缩",
+    "pinyin": "yāsuō",
+    "english": "compress",
+    "example": "如果只是把五天的任务压缩到四天，员工可能每天更累，甚至把工作带回家。",
+    "followUp": "如果工资也减少，你还支持吗？",
+    "level": 5,
+    "usage": "Challenge 一定 with a mechanism and counterexample. The final indicators turn a vague preference into an assessable position. Do not claim a study or statistic you cannot name."
+  },
+  {
+    "word": "工时",
+    "pinyin": "gōngshí",
+    "english": "working hours",
+    "example": "因此，与其只统计上班天数，不如同时观察总工时、工作压力和收入是否稳定。",
+    "followUp": "如果工资也减少，你还支持吗？",
+    "level": 5,
+    "usage": "Challenge 一定 with a mechanism and counterexample. The final indicators turn a vague preference into an assessable position. Do not claim a study or statistic you cannot name."
+  },
+  {
+    "word": "矛盾",
+    "pinyin": "máodùn",
+    "english": "conflict",
+    "example": "两条网上评价互相矛盾，我会先看具体使用条件。",
+    "followUp": "你怎样识别不可靠的评价？",
+    "level": 5,
+    "usage": "Organize the process in stages, illustrated by one purchase. The concluding distinction between reference and judgment answers the uncertainty in the question."
+  },
+  {
+    "word": "售后",
+    "pinyin": "shòuhòu",
+    "english": "after-sales support",
+    "example": "我会先区分评价说的是产品本身，还是配送和售后。",
+    "followUp": "你怎样识别不可靠的评价？",
+    "level": 5,
+    "usage": "Organize the process in stages, illustrated by one purchase. The concluding distinction between reference and judgment answers the uncertainty in the question."
+  },
+  {
+    "word": "修复",
+    "pinyin": "xiūfù",
+    "english": "restore",
+    "example": "发展旅游可以带来收入，也可能帮助修复建筑，但如果日常商店全变成纪念品店，居民反而失去了生活便利。",
+    "followUp": "如果居民意见不一致怎么办？",
+    "level": 5,
+    "usage": "Acknowledge the economic benefit before explaining the trade-off. Three concrete rules are stronger than a long list of abstract values. 倾向于 states preference without implying every case is identical."
+  },
+  {
+    "word": "维护",
+    "pinyin": "wéihù",
+    "english": "maintain",
+    "example": "旅游收入的一部分也应回到公共设施维护上。",
+    "followUp": "如果居民意见不一致怎么办？",
+    "level": 5,
+    "usage": "Acknowledge the economic benefit before explaining the trade-off. Three concrete rules are stronger than a long list of abstract values. 倾向于 states preference without implying every case is identical."
+  },
+  {
+    "word": "征求意见",
+    "pinyin": "zhēngqiú yìjiàn",
+    "english": "seek feedback",
+    "example": "改造旧铁路之前，设计团队先向附近居民征求意见。",
+    "followUp": "怎样避免公众咨询流于形式？",
+    "level": 6,
+    "usage": "Keep the change in evaluation, which is the story's main consequence. 基本不变 is a cautious paraphrase of no marked increase, not a claim of an exact unchanged sum."
+  },
+  {
+    "word": "遗迹",
+    "pinyin": "yíjì",
+    "english": "historic remains",
+    "example": "征求公众意见后，团队增设了通往学校和医院的出入口，同时保留铁路遗迹。",
+    "followUp": "怎样避免公众咨询流于形式？",
+    "level": 6,
+    "usage": "Keep the change in evaluation, which is the story's main consequence. 基本不变 is a cautious paraphrase of no marked increase, not a claim of an exact unchanged sum."
+  },
+  {
+    "word": "筛选",
+    "pinyin": "shāixuǎn",
+    "english": "screen",
+    "example": "因此，平台不再把职业空档作为简单筛选依据，同时引入人工复核和群体间面试比例的定期比较。",
+    "followUp": "人工复核一定更公平吗？",
+    "level": 6,
+    "usage": "Preserve the limitation in the last sentence. Do not turn a process improvement into proof of fairness. Explain the two alternative reasons for career gaps succinctly."
+  },
+  {
+    "word": "偏差",
+    "pinyin": "piānchā",
+    "english": "bias or deviation",
+    "example": "这些调整旨在减少偏差，并不意味着偏差已经完全消失。",
+    "followUp": "人工复核一定更公平吗？",
+    "level": 6,
+    "usage": "Preserve the limitation in the last sentence. Do not turn a process improvement into proof of fairness. Explain the two alternative reasons for career gaps succinctly."
+  },
+  {
+    "word": "指标",
+    "pinyin": "zhǐbiāo",
+    "english": "metric",
+    "example": "如果只重视数量指标，就可能忽略学习质量。",
+    "followUp": "教育中有哪些难以量化的成果？",
+    "level": 6,
+    "usage": "The trade-off and cautious next step are essential. Do not describe the new method as proven across all schools. Use 诱发 to connect the metric to the unintended behavior."
+  },
+  {
+    "word": "评估",
+    "pinyin": "pínggū",
+    "english": "evaluate",
+    "example": "学校决定先评估试行效果，再考虑是否推广。",
+    "followUp": "教育中有哪些难以量化的成果？",
+    "level": 6,
+    "usage": "The trade-off and cautious next step are essential. Do not describe the new method as proven across all schools. Use 诱发 to connect the metric to the unintended behavior."
+  },
+  {
+    "word": "推断",
+    "pinyin": "tuīduàn",
+    "english": "inference",
+    "example": "面对复杂问题，我们既要区分事实与推断，也要说明结论适用的条件。",
+    "followUp": "你会在什么情况下改变自己的观点？",
+    "level": 6,
+    "usage": "Make the paired structures audible: 越…越…, 既…也…, 并不是…而是…. Stress conceptual contrasts, not every abstract noun. Let the final phrase resolve the paragraph."
+  },
+  {
+    "word": "适用",
+    "pinyin": "shìyòng",
+    "english": "apply to",
+    "example": "面对复杂问题，我们既要区分事实与推断，也要说明结论适用的条件。",
+    "followUp": "你会在什么情况下改变自己的观点？",
+    "level": 6,
+    "usage": "Make the paired structures audible: 越…越…, 既…也…, 并不是…而是…. Stress conceptual contrasts, not every abstract noun. Let the final phrase resolve the paragraph."
+  },
+  {
+    "word": "传承",
+    "pinyin": "chuánchéng",
+    "english": "transmit a tradition",
+    "example": "真正可持续的传承，需要理解核心价值，也需要允许材料、用途和学习方式发生合理变化。",
+    "followUp": "改变到什么程度仍算保护传统？",
+    "level": 6,
+    "usage": "Keep 如果…却… as one conditional contrast. Use a small pause between the three items in the last list, without detaching them from 发生合理变化."
+  },
+  {
+    "word": "核心",
+    "pinyin": "héxīn",
+    "english": "core",
+    "example": "真正可持续的传承，需要理解核心价值，也需要允许材料、用途和学习方式发生合理变化。",
+    "followUp": "改变到什么程度仍算保护传统？",
+    "level": 6,
+    "usage": "Keep 如果…却… as one conditional contrast. Use a small pause between the three items in the last list, without detaching them from 发生合理变化."
+  },
+  {
+    "word": "削弱",
+    "pinyin": "xuēruò",
+    "english": "weaken",
+    "example": "过度追求即时效率，有时会削弱系统应对意外的能力。",
+    "followUp": "保留备用资源会不会造成浪费？",
+    "level": 6,
+    "usage": "削弱 starts with xuē, not xiāo. Keep the three disruption scenarios parallel, and make 是否 lead naturally to the final question embedded in the sentence."
+  },
+  {
+    "word": "保障",
+    "pinyin": "bǎozhàng",
+    "english": "safeguard",
+    "example": "看似闲置的资源，可能正是高峰时期维持服务的保障。",
+    "followUp": "保留备用资源会不会造成浪费？",
+    "level": 6,
+    "usage": "削弱 starts with xuē, not xiāo. Keep the three disruption scenarios parallel, and make 是否 lead naturally to the final question embedded in the sentence."
+  },
+  {
+    "word": "约束",
+    "pinyin": "yuēshù",
+    "english": "constrain",
+    "example": "个人当然可以选择如何使用座位，不过自由也受共同规则约束。",
+    "followUp": "统一规则会不会忽略个体差异？",
+    "level": 6,
+    "usage": "Begin with observed detail and an epistemic limit, then generalize. Your examples describe possible conflicts, not misconduct proved by the picture. Keep the transition from description to argument explicit."
+  },
+  {
+    "word": "协调",
+    "pinyin": "xiétiáo",
+    "english": "coordinate",
+    "example": "规则越清楚，顾客越不需要靠猜测或争执来协调彼此的需求。",
+    "followUp": "统一规则会不会忽略个体差异？",
+    "level": 6,
+    "usage": "Begin with observed detail and an epistemic limit, then generalize. Your examples describe possible conflicts, not misconduct proved by the picture. Keep the transition from description to argument explicit."
+  },
+  {
+    "word": "衡量",
+    "pinyin": "héngliáng",
+    "english": "measure",
+    "example": "因此，公共服务不应只以平均等待时间衡量，还应观察最容易被忽略的使用情境。",
+    "followUp": "怎样收集被忽略的使用者反馈？",
+    "level": 6,
+    "usage": "Develop the argument from unequal burdens, then propose two complementary measures. Do not imply the illustration contains a disabled passenger or a documented service failure."
+  },
+  {
+    "word": "掩盖",
+    "pinyin": "yǎngài",
+    "english": "conceal",
+    "example": "我的观点是，评价应同时报告整体效率与弱势使用者的体验，否则平均数字可能掩盖服务没有覆盖到的人。",
+    "followUp": "怎样收集被忽略的使用者反馈？",
+    "level": 6,
+    "usage": "Develop the argument from unequal burdens, then propose two complementary measures. Do not imply the illustration contains a disabled passenger or a documented service failure."
+  },
+  {
+    "word": "收益",
+    "pinyin": "shōuyì",
+    "english": "benefit or return",
+    "example": "对消费者而言，新鲜程度、购买距离和能否按需购买，同样影响实际收益；对生产者而言，运输和保存条件也会形成成本。",
+    "followUp": "如果无法取得全部信息，怎样决定？",
+    "level": 6,
+    "usage": "Distinguish visible evidence from unsupported ethical claims. The concession prevents a simplistic small-is-good argument, while the conclusion offers a usable decision method."
+  },
+  {
+    "word": "等同",
+    "pinyin": "děngtóng",
+    "english": "equate",
+    "example": "我会把价格当作判断的起点，而不是把便宜或昂贵直接等同于好坏。",
+    "followUp": "如果无法取得全部信息，怎样决定？",
+    "level": 6,
+    "usage": "Distinguish visible evidence from unsupported ethical claims. The concession prevents a simplistic small-is-good argument, while the conclusion offers a usable decision method."
+  },
+  {
+    "word": "部署",
+    "pinyin": "bùshǔ",
+    "english": "deploy",
+    "example": "首先，应区分设计、部署和使用三个环节：开发者需要说明已知限制，机构需要评估适用场景，使用者则应遵守审核要求。",
+    "followUp": "如果人类审核者也同意了错误结果呢？",
+    "level": 6,
+    "usage": "Separate stages, illustrate a causal ambiguity, then protect the affected person's route to remedy. This is an ethical position, not legal advice. Avoid saying that any one cause explains every automated error."
+  },
+  {
+    "word": "申诉",
+    "pinyin": "shēnsù",
+    "english": "appeal",
+    "example": "与此同时，受到影响的人必须有清楚的申诉渠道，不能被迫理解复杂技术后才有资格提出异议。",
+    "followUp": "如果人类审核者也同意了错误结果呢？",
+    "level": 6,
+    "usage": "Separate stages, illustrate a causal ambiguity, then protect the affected person's route to remedy. This is an ethical position, not legal advice. Avoid saying that any one cause explains every automated error."
+  },
+  {
+    "word": "量化",
+    "pinyin": "liànghuà",
+    "english": "quantify",
+    "example": "我认为，难以量化不等于无法评价。",
+    "followUp": "多方反馈相互冲突时怎么办？",
+    "level": 6,
+    "usage": "Define the distinction immediately. Balance your proposed qualitative process with its cost and bias. The final sentence limits the role of data without rejecting it."
+  },
+  {
+    "word": "复核",
+    "pinyin": "fùhé",
+    "english": "review again",
+    "example": "这样的评价成本更高，也可能带来主观偏差，所以标准需要公开，结论需要允许复核。",
+    "followUp": "多方反馈相互冲突时怎么办？",
+    "level": 6,
+    "usage": "Define the distinction immediately. Balance your proposed qualitative process with its cost and bias. The final sentence limits the role of data without rejecting it."
+  },
+  {
+    "word": "迎合",
+    "pinyin": "yínghé",
+    "english": "cater to",
+    "example": "我更愿意把它看作一种能力，但前提是改变来自新的证据或更充分的思考，而不是单纯迎合压力。",
+    "followUp": "怎样区分坚持原则与固执？",
+    "level": 6,
+    "usage": "Reject the false binary by giving conditions for each side. The city example distinguishes a value from a proposed means. End with a criterion, not a slogan about always being open-minded."
+  },
+  {
+    "word": "透明度",
+    "pinyin": "tòumíngdù",
+    "english": "transparency",
+    "example": "公开说明哪些事实发生变化、哪些价值仍然坚持，反而能增加讨论的透明度。",
+    "followUp": "怎样区分坚持原则与固执？",
+    "level": 6,
+    "usage": "Reject the false binary by giving conditions for each side. The city example distinguishes a value from a proposed means. End with a criterion, not a slogan about always being open-minded."
+  }
+]

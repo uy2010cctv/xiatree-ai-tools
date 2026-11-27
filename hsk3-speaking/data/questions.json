@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "L3-repeat-1",
+    "level": 3,
+    "part": "repeat",
+    "title": "A change of plan",
+    "prompt": "今天下午我要先去银行，再去超市买水果。",
+    "pinyin": "Jīntiān xiàwǔ wǒ yào xiān qù yínháng, zài qù chāoshì mǎi shuǐguǒ.",
+    "translation": "This afternoon I will go to the bank first, then buy fruit at the supermarket.",
+    "answer": "今天下午我要先去银行，再去超市买水果。",
+    "answerEnglish": "This afternoon I will go to the bank first, then buy fruit at the supermarket.",
+    "analysis": "Keep the order of the two errands. Pause after 银行, without dropping the second 去. The task is repetition, so adding a reason would change the source.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "银行",
+        "pinyin": "yínháng",
+        "english": "bank"
+      },
+      {
+        "word": "超市",
+        "pinyin": "chāoshì",
+        "english": "supermarket"
+      }
+    ],
+    "followUp": "你一般什么时候买东西？",
+    "prep": 0,
+    "seconds": 10,
+    "free": true,
+    "scene": null,
+    "task": "repeat",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-repeat-2",
+    "level": 3,
+    "part": "repeat",
+    "title": "Finding the station",
+    "prompt": "请在前面的路口向左拐，地铁站就在右边。",
+    "pinyin": "Qǐng zài qiánmiàn de lùkǒu xiàng zuǒ guǎi, dìtiězhàn jiù zài yòubian.",
+    "translation": "Turn left at the junction ahead; the metro station is on the right.",
+    "answer": "请在前面的路口向左拐，地铁站就在右边。",
+    "answerEnglish": "Turn left at the junction ahead; the metro station is on the right.",
+    "analysis": "Listen for the contrast between 左 and 右. Group the location phrase before the action rather than translating an English word order.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "路口",
+        "pinyin": "lùkǒu",
+        "english": "junction"
+      },
+      {
+        "word": "地铁站",
+        "pinyin": "dìtiězhàn",
+        "english": "metro station"
+      }
+    ],
+    "followUp": "从你家到车站怎么走？",
+    "prep": 0,
+    "seconds": 10,
+    "free": false,
+    "scene": null,
+    "task": "repeat",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-repeat-3",
+    "level": 3,
+    "part": "repeat",
+    "title": "A helpful classmate",
+    "prompt": "我没听清楚老师的问题，同桌又说了一遍。",
+    "pinyin": "Wǒ méi tīng qīngchu lǎoshī de wèntí, tóngzhuō yòu shuō le yí biàn.",
+    "translation": "I did not catch the teacher's question, so my desk mate said it again.",
+    "answer": "我没听清楚老师的问题，同桌又说了一遍。",
+    "answerEnglish": "I did not catch the teacher's question, so my desk mate said it again.",
+    "analysis": "听清楚 is a result complement: the issue is clarity, not whether hearing happened. Keep 没 and 又; they explain the small sequence of events.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "清楚",
+        "pinyin": "qīngchu",
+        "english": "clear"
+      },
+      {
+        "word": "同桌",
+        "pinyin": "tóngzhuō",
+        "english": "desk mate"
+      }
+    ],
+    "followUp": "没听懂的时候你会怎么办？",
+    "prep": 0,
+    "seconds": 10,
+    "free": false,
+    "scene": null,
+    "task": "repeat",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-read-1",
+    "level": 3,
+    "part": "read",
+    "title": "A morning routine",
+    "prompt": "每天早上，我先喝一杯水，然后走路去学校。路上我会听中文。",
+    "pinyin": "Měitiān zǎoshang, wǒ xiān hē yì bēi shuǐ, ránhòu zǒulù qù xuéxiào. Lùshang wǒ huì tīng Zhōngwén.",
+    "translation": "Every morning I drink a glass of water, then walk to school. I listen to Chinese on the way.",
+    "answer": "每天早上，我先喝一杯水，然后走路去学校。路上我会听中文。",
+    "answerEnglish": "Every morning I drink a glass of water, then walk to school. I listen to Chinese on the way.",
+    "analysis": "Read in thought groups: time, first action, next action. 一杯 is normally yì bēi in connected speech. Do not give every character equal stress.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "然后",
+        "pinyin": "ránhòu",
+        "english": "then"
+      },
+      {
+        "word": "走路",
+        "pinyin": "zǒulù",
+        "english": "walk"
+      }
+    ],
+    "followUp": "你早上做的第一件事是什么？",
+    "prep": 30,
+    "seconds": 60,
+    "free": true,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-read-2",
+    "level": 3,
+    "part": "read",
+    "title": "An invitation",
+    "prompt": "周六是我的生日。我想请几个朋友来家里吃饭，大家一起做面条。",
+    "pinyin": "Zhōuliù shì wǒ de shēngrì. Wǒ xiǎng qǐng jǐ ge péngyou lái jiālǐ chīfàn, dàjiā yìqǐ zuò miàntiáo.",
+    "translation": "Saturday is my birthday. I want to invite a few friends home for a meal and make noodles together.",
+    "answer": "周六是我的生日。我想请几个朋友来家里吃饭，大家一起做面条。",
+    "answerEnglish": "Saturday is my birthday. I want to invite a few friends home for a meal and make noodles together.",
+    "analysis": "Let the full stop close the first idea. 朋友 has a light second syllable. Keep the final sentence inviting, rather than speeding through it.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "生日",
+        "pinyin": "shēngrì",
+        "english": "birthday"
+      },
+      {
+        "word": "面条",
+        "pinyin": "miàntiáo",
+        "english": "noodles"
+      }
+    ],
+    "followUp": "你喜欢怎么过生日？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-read-3",
+    "level": 3,
+    "part": "read",
+    "title": "The library notice",
+    "prompt": "图书馆下午六点关门。还书以后，请把桌子上的东西带走。",
+    "pinyin": "Túshūguǎn xiàwǔ liù diǎn guānmén. Huán shū yǐhòu, qǐng bǎ zhuōzi shàng de dōngxi dài zǒu.",
+    "translation": "The library closes at six in the afternoon. After returning books, please take your belongings from the table.",
+    "answer": "图书馆下午六点关门。还书以后，请把桌子上的东西带走。",
+    "answerEnglish": "The library closes at six in the afternoon. After returning books, please take your belongings from the table.",
+    "analysis": "还 is huán here because it means return. Read the 把 phrase as one unit and leave time for the result 带走.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "还书",
+        "pinyin": "huán shū",
+        "english": "return books"
+      },
+      {
+        "word": "关门",
+        "pinyin": "guānmén",
+        "english": "close"
+      }
+    ],
+    "followUp": "你常去图书馆吗？为什么？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-picture-1",
+    "level": 3,
+    "part": "picture",
+    "title": "The shared table",
+    "prompt": "请描述咖啡馆里两个人在做什么。",
+    "pinyin": "Qǐng miáoshù kāfēiguǎn lǐ liǎng ge rén zài zuò shénme.",
+    "translation": "Describe what the two people in the café are doing.",
+    "answer": "两个人坐在咖啡馆里。左边的人正在看电脑，右边的人拿着一本书。桌上有两杯咖啡。他们可能在一起学习。我也喜欢在安静的地方看书。",
+    "answerEnglish": "Two people are sitting in a café. The person on the left is looking at a laptop, and the one on the right is holding a book. There are two coffees on the table. They may be studying together. I also like reading in quiet places.",
+    "analysis": "Start with people and place. Use 正在 for an action and 有 for an object. 可能 marks a sensible guess; do not state an invented relationship as visible fact.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "左边",
+        "pinyin": "zuǒbian",
+        "english": "on the left"
+      },
+      {
+        "word": "安静",
+        "pinyin": "ānjìng",
+        "english": "quiet"
+      }
+    ],
+    "followUp": "你喜欢在哪里学习？",
+    "prep": 45,
+    "seconds": 15,
+    "free": true,
+    "scene": "cafe",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-picture-2",
+    "level": 3,
+    "part": "picture",
+    "title": "A rainy bus stop",
+    "prompt": "请描述下雨时车站旁边的情景。",
+    "pinyin": "Qǐng miáoshù xiàyǔ shí chēzhàn pángbiān de qíngjǐng.",
+    "translation": "Describe the scene beside the bus stop in the rain.",
+    "answer": "外面在下雨。一个人站在车站旁边，手里拿着一把伞。一辆公共汽车快到了。他可能在等车。如果是我，我会早点出门，因为下雨天路上比较慢。",
+    "answerEnglish": "It is raining. A person is standing by the bus stop holding an umbrella. A bus is approaching. They may be waiting for it. I would leave early because journeys are slower when it rains.",
+    "analysis": "Describe the rain and umbrella before guessing the purpose. 一把伞 uses 把 as a classifier. One personal sentence is enough after the visible details.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "旁边",
+        "pinyin": "pángbiān",
+        "english": "beside"
+      },
+      {
+        "word": "雨伞",
+        "pinyin": "yǔsǎn",
+        "english": "umbrella"
+      }
+    ],
+    "followUp": "下雨天你怎么去学校？",
+    "prep": 45,
+    "seconds": 15,
+    "free": false,
+    "scene": "bus",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-picture-3",
+    "level": 3,
+    "part": "picture",
+    "title": "Buying apples",
+    "prompt": "请描述水果店里买东西的情景。",
+    "pinyin": "Qǐng miáoshù shuǐguǒdiàn lǐ mǎi dōngxi de qíngjǐng.",
+    "translation": "Describe the shopping scene at the fruit stall.",
+    "answer": "水果店里有一位顾客和一位店员。顾客指着苹果，店员正在称水果。桌上还有香蕉。他们可能在谈价格。我买水果时会先问多少钱，再决定买多少。",
+    "answerEnglish": "There is a customer and a shop assistant at the fruit stall. The customer is pointing at apples while the assistant weighs fruit. There are also bananas on the table. They may be discussing the price. I ask the price before deciding how much to buy.",
+    "analysis": "Anchor the description in the pointing hand and scale. Use 位 politely for people. Finish with a relevant buying habit instead of listing unrelated foods.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "顾客",
+        "pinyin": "gùkè",
+        "english": "customer"
+      },
+      {
+        "word": "苹果",
+        "pinyin": "píngguǒ",
+        "english": "apple"
+      }
+    ],
+    "followUp": "你买水果时最关心什么？",
+    "prep": 45,
+    "seconds": 15,
+    "free": false,
+    "scene": "market",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-topic-1",
+    "level": 3,
+    "part": "topic",
+    "title": "Your favorite study place",
+    "prompt": "你喜欢在家学习还是在图书馆学习？为什么？",
+    "pinyin": "Nǐ xǐhuan zài jiā xuéxí háishi zài túshūguǎn xuéxí? Wèishénme?",
+    "translation": "Do you prefer studying at home or in a library? Why?",
+    "answer": "我更喜欢在图书馆学习。首先，那里比较安静，我容易集中注意力。其次，我可以马上找需要的书。上周我在图书馆复习了两个小时，做完了作业。不过，如果我要练习口语，我会在家学习，因为说话不会影响别人。",
+    "answerEnglish": "I prefer studying in a library. It is quiet, which helps me concentrate, and I can find books easily. Last week I studied there for two hours and finished my homework. For speaking practice, though, I study at home so I do not disturb others.",
+    "analysis": "Answer the choice immediately, then give two concrete reasons. The final exception adds balance without changing the main answer. Use 还是 for the question, not to link your reasons.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "复习",
+        "pinyin": "fùxí",
+        "english": "review"
+      },
+      {
+        "word": "影响",
+        "pinyin": "yǐngxiǎng",
+        "english": "affect"
+      }
+    ],
+    "followUp": "如果图书馆很远，你还会去吗？",
+    "prep": 45,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-topic-2",
+    "level": 3,
+    "part": "topic",
+    "title": "A useful purchase",
+    "prompt": "请介绍一件你最近买的有用的东西。",
+    "pinyin": "Qǐng jièshào yí jiàn nǐ zuìjìn mǎi de yǒuyòng de dōngxi.",
+    "translation": "Describe something useful you bought recently.",
+    "answer": "我最近买了一个水杯。以前我出门常常买瓶装水，花钱也不方便。现在我每天早上把水杯装满，带到学校。这个杯子不贵，也不重。上个星期出去玩的时候，我还把水分给了朋友。我觉得有用的东西不一定很贵，能让生活方便一点就很好。",
+    "answerEnglish": "I recently bought a water bottle. I used to buy bottled water whenever I went out. Now I fill it every morning and take it to school. It is cheap and light. I even shared water with a friend on an outing last week. Useful things do not have to be expensive; small conveniences matter.",
+    "analysis": "Use a before-and-after contrast to explain usefulness. Name one object, one change, and one incident. 不一定 is a qualified conclusion rather than an absolute claim.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "最近",
+        "pinyin": "zuìjìn",
+        "english": "recently"
+      },
+      {
+        "word": "方便",
+        "pinyin": "fāngbiàn",
+        "english": "convenient"
+      }
+    ],
+    "followUp": "你会把它推荐给谁？",
+    "prep": 45,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L3-topic-3",
+    "level": 3,
+    "part": "topic",
+    "title": "Learning with a friend",
+    "prompt": "和朋友一起学中文有什么好处？",
+    "pinyin": "Hé péngyou yìqǐ xué Zhōngwén yǒu shénme hǎochu?",
+    "translation": "What are the benefits of learning Chinese with a friend?",
+    "answer": "我觉得和朋友一起学中文很有帮助。我们可以互相问问题，也可以练习对话。比如昨天我忘了一个词，朋友用简单的中文解释给我听，我就记住了。不过，我们要先安排好时间，不能一直聊天。我想每周一起练习两次，每次半个小时，这样比较容易坚持。",
+    "answerEnglish": "Learning with a friend is helpful: we can ask each other questions and practice conversations. Yesterday a friend explained a word I had forgotten in simple Chinese, which helped me remember it. We need a schedule so we do not just chat. Two half-hour sessions a week would be manageable.",
+    "analysis": "Support the benefit with a small incident. The practical schedule makes the answer complete. Keep 互相 attached to something both people can do.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "互相",
+        "pinyin": "hùxiāng",
+        "english": "each other"
+      },
+      {
+        "word": "坚持",
+        "pinyin": "jiānchí",
+        "english": "keep going"
+      }
+    ],
+    "followUp": "朋友没有时间时，你会怎么练习？",
+    "prep": 45,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-repeat-1",
+    "level": 4,
+    "part": "repeat",
+    "title": "A missed delivery",
+    "prompt": "小林买的书今天到了，可是他正在上课。快递员把书放在门口，给他发了消息。他下课后马上把书取回了家。",
+    "pinyin": "Xiǎo Lín mǎi de shū jīntiān dào le, kěshì tā zhèngzài shàngkè. Kuàidìyuán bǎ shū fàng zài ménkǒu, gěi tā fā le xiāoxi. Tā xiàkè hòu mǎshàng bǎ shū qǔ huí le jiā.",
+    "translation": "Retell the story: a book delivery arrives while Xiao Lin is in class; the courier leaves it at the door and sends a message; he collects it after class.",
+    "answer": "小林的书今天送到了，当时他在上课。快递员把书放在门口，并发消息通知他。下课以后，他就把书拿回家了。",
+    "answerEnglish": "Xiao Lin's books arrived while he was in class. The courier left them at the door and sent him a message. After class he took them home.",
+    "analysis": "This is retelling, not verbatim repetition. Preserve arrival, temporary absence, notification and collection. 取回 can become 拿回 without losing the event.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "快递员",
+        "pinyin": "kuàidìyuán",
+        "english": "courier"
+      },
+      {
+        "word": "通知",
+        "pinyin": "tōngzhī",
+        "english": "notify"
+      }
+    ],
+    "followUp": "如果包裹丢了，应该怎么办？",
+    "prep": 0,
+    "seconds": 40,
+    "free": true,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-repeat-2",
+    "level": 4,
+    "part": "repeat",
+    "title": "An earlier train",
+    "prompt": "王女士原来打算坐十点的火车。因为会议提前了，她改买了八点的车票。虽然起床早了两个小时，但她准时到了公司。",
+    "pinyin": "Wáng nǚshì yuánlái dǎsuàn zuò shí diǎn de huǒchē. Yīnwèi huìyì tíqián le, tā gǎi mǎi le bā diǎn de chēpiào. Suīrán qǐchuáng zǎo le liǎng ge xiǎoshí, dàn tā zhǔnshí dào le gōngsī.",
+    "translation": "Retell the change of train caused by an earlier meeting.",
+    "answer": "王女士本来要坐十点的火车，后来会议时间提前，她就换成了八点的车。她因此早起了两个小时，最后准时到达公司。",
+    "answerEnglish": "Ms Wang had planned to take the ten o'clock train. When the meeting was moved forward, she changed to the eight o'clock train. She got up two hours earlier and reached the office on time.",
+    "analysis": "Keep both times and the cause of the change. Do not turn an earlier meeting into a delayed train. 本来 and 后来 provide a clean contrast.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "提前",
+        "pinyin": "tíqián",
+        "english": "move earlier"
+      },
+      {
+        "word": "准时",
+        "pinyin": "zhǔnshí",
+        "english": "on time"
+      }
+    ],
+    "followUp": "你怎样避免迟到？",
+    "prep": 0,
+    "seconds": 40,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-repeat-3",
+    "level": 4,
+    "part": "repeat",
+    "title": "Repair or replace?",
+    "prompt": "宿舍的风扇坏了，大家想买新的。小周却先联系了学校的维修人员。第二天风扇就修好了，大家省下了一笔钱。",
+    "pinyin": "Sùshè de fēngshàn huài le, dàjiā xiǎng mǎi xīn de. Xiǎo Zhōu què xiān liánxì le xuéxiào de wéixiū rényuán. Dì èr tiān fēngshàn jiù xiū hǎo le, dàjiā shěng xià le yì bǐ qián.",
+    "translation": "Retell how contacting a repair worker saved money on a broken dormitory fan.",
+    "answer": "宿舍的风扇出了问题，其他人准备换一个。小周先找了学校的维修人员，风扇第二天就修好了。这样大家就不用花钱买新的了。",
+    "answerEnglish": "The dormitory fan broke, and the others wanted to replace it. Xiao Zhou contacted the school repair staff first. It was fixed the next day, so they did not need to buy another one.",
+    "analysis": "Keep the decision, intervention and result. The story does not say the repair was free, only that replacement money was saved; do not invent a repair price.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "维修",
+        "pinyin": "wéixiū",
+        "english": "repair"
+      },
+      {
+        "word": "省钱",
+        "pinyin": "shěng qián",
+        "english": "save money"
+      }
+    ],
+    "followUp": "什么东西值得修理？",
+    "prep": 0,
+    "seconds": 40,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-read-1",
+    "level": 4,
+    "part": "read",
+    "title": "A community garden",
+    "prompt": "我们小区把一块空地变成了菜园。居民不仅可以种菜，还能认识邻居。虽然每次收获不多，大家却觉得生活更有意思了。",
+    "pinyin": "Wǒmen xiǎoqū bǎ yí kuài kòngdì biàn chéng le càiyuán. Jūmín bùjǐn kěyǐ zhòng cài, hái néng rènshi línjū. Suīrán měi cì shōuhuò bù duō, dàjiā què juéde shēnghuó gèng yǒu yìsi le.",
+    "translation": "Our residential community turned an empty plot into a vegetable garden. Residents can grow food and meet neighbors. The harvest is small, but life feels more interesting.",
+    "answer": "我们小区把一块空地变成了菜园。居民不仅可以种菜，还能认识邻居。虽然每次收获不多，大家却觉得生活更有意思了。",
+    "answerEnglish": "Our community turned an empty plot into a vegetable garden. Residents can grow food and meet neighbors. The harvest is small, but life feels more interesting.",
+    "analysis": "This is supplemental reading practice at level 4, not a claim that the official level 4 paper includes reading aloud. Link 不仅 with 还, then lower the voice to finish the contrast.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "居民",
+        "pinyin": "jūmín",
+        "english": "resident"
+      },
+      {
+        "word": "收获",
+        "pinyin": "shōuhuò",
+        "english": "harvest"
+      }
+    ],
+    "followUp": "你愿意参加社区活动吗？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-read-2",
+    "level": 4,
+    "part": "read",
+    "title": "An interview lesson",
+    "prompt": "第一次面试时，我只准备了自己的优点。面试官问起遇到的困难，我一时不知道怎么回答。从那以后，我学会了用真实经历说明自己解决问题的能力。",
+    "pinyin": "Dì yī cì miànshì shí, wǒ zhǐ zhǔnbèi le zìjǐ de yōudiǎn. Miànshìguān wèn qǐ yùdào de kùnnan, wǒ yìshí bù zhīdào zěnme huídá. Cóng nà yǐhòu, wǒ xuéhuì le yòng zhēnshí jīnglì shuōmíng zìjǐ jiějué wèntí de nénglì.",
+    "translation": "At my first interview I prepared only my strengths. When asked about difficulties I had faced, I did not know what to say. Since then I have learned to use real experiences to show problem-solving ability.",
+    "answer": "第一次面试时，我只准备了自己的优点。面试官问起遇到的困难，我一时不知道怎么回答。从那以后，我学会了用真实经历说明自己解决问题的能力。",
+    "answerEnglish": "At my first interview I prepared only my strengths. I was caught off guard by a question about difficulties. Since then I have used real experiences to show how I solve problems.",
+    "analysis": "Leave a short pause after the time clauses. 准备 has a third tone followed by a fourth tone: finish the dip without stretching it into two beats.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "面试",
+        "pinyin": "miànshì",
+        "english": "interview"
+      },
+      {
+        "word": "经历",
+        "pinyin": "jīnglì",
+        "english": "experience"
+      }
+    ],
+    "followUp": "你怎样准备一次面试？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-read-3",
+    "level": 4,
+    "part": "read",
+    "title": "A quieter journey",
+    "prompt": "坐地铁时，有人喜欢看视频，也有人想安静地休息。戴上耳机、调低音量，看起来是小事，却能让同一节车厢里的人都更舒服。",
+    "pinyin": "Zuò dìtiě shí, yǒurén xǐhuan kàn shìpín, yě yǒurén xiǎng ānjìng de xiūxi. Dài shàng ěrjī, tiáo dī yīnliàng, kàn qǐlái shì xiǎoshì, què néng ràng tóng yì jié chēxiāng lǐ de rén dōu gèng shūfu.",
+    "translation": "Some metro passengers watch videos; others want to rest. Wearing headphones and lowering the volume seem small actions, but make the carriage more comfortable for everyone.",
+    "answer": "坐地铁时，有人喜欢看视频，也有人想安静地休息。戴上耳机、调低音量，看起来是小事，却能让同一节车厢里的人都更舒服。",
+    "answerEnglish": "Some passengers watch videos while others want quiet. Headphones and a lower volume make the journey more comfortable for everyone.",
+    "analysis": "Keep the two 有人 clauses parallel. 调 is tiáo when adjusting volume. Do not break the long noun phrase 同一节车厢里的人 after 里.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "耳机",
+        "pinyin": "ěrjī",
+        "english": "headphones"
+      },
+      {
+        "word": "音量",
+        "pinyin": "yīnliàng",
+        "english": "volume"
+      }
+    ],
+    "followUp": "公共场所应该遵守什么规则？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-picture-1",
+    "level": 4,
+    "part": "picture",
+    "title": "Studying together",
+    "prompt": "请描述咖啡馆里的学习情景，并说明合作可能有什么帮助。",
+    "pinyin": "Qǐng miáoshù kāfēiguǎn lǐ de xuéxí qíngjǐng, bìng shuōmíng hézuò kěnéng yǒu shénme bāngzhù.",
+    "translation": "Describe the café study scene and explain how cooperation could help.",
+    "answer": "图中两个人面对面坐着，一个使用电脑，另一个拿着书。桌上放着咖啡，环境看起来比较安静。他们可能在为同一个任务查资料。如果是在合作学习，一个人可以负责查找，另一个人整理重点。不过，图片本身不能告诉我们他们的关系，所以不能确定他们是不是同学。",
+    "answerEnglish": "Two people sit facing each other, one with a laptop and one with a book. The café looks quiet. They might be researching a shared task: one could search and the other organize key points. Their relationship cannot be established from the picture alone.",
+    "analysis": "Move from visible evidence to a clearly signposted possibility. Use 一个…另一个… to organize people. Avoid describing a relationship as if the illustration proves it.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "合作",
+        "pinyin": "hézuò",
+        "english": "cooperate"
+      },
+      {
+        "word": "资料",
+        "pinyin": "zīliào",
+        "english": "reference material"
+      }
+    ],
+    "followUp": "合作时意见不同怎么办？",
+    "prep": 45,
+    "seconds": 120,
+    "free": true,
+    "scene": "cafe",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-picture-2",
+    "level": 4,
+    "part": "picture",
+    "title": "Waiting in the rain",
+    "prompt": "描述车站情景，并给等车的人一个建议。",
+    "pinyin": "Miáoshù chēzhàn qíngjǐng, bìng gěi děng chē de rén yí ge jiànyì.",
+    "translation": "Describe the bus stop and offer one suggestion to the person waiting.",
+    "answer": "画面里正在下雨，一个人撑着伞站在车站旁。一辆公共汽车正开过来。他可能准备坐车去上班，也可能只是去办事。下雨时地面容易滑，我建议他等车停稳以后再往前走。这样既不会淋太多雨，也比较安全。",
+    "answerEnglish": "It is raining and a person waits under an umbrella as a bus approaches. They might be commuting or running an errand. Since the ground can be slippery, I would suggest waiting for the bus to stop before stepping forward. That would be safer.",
+    "analysis": "Keep speculation brief. The advice must connect to the visible rain and approaching vehicle. 既…也… works only when the two benefits belong to the same action.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "建议",
+        "pinyin": "jiànyì",
+        "english": "suggestion"
+      },
+      {
+        "word": "安全",
+        "pinyin": "ānquán",
+        "english": "safe"
+      }
+    ],
+    "followUp": "如果等了很久还没有车，你会怎么办？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "bus",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-picture-3",
+    "level": 4,
+    "part": "picture",
+    "title": "Choosing seasonal fruit",
+    "prompt": "描述水果摊的交易，并谈谈你会怎样选择。",
+    "pinyin": "Miáoshù shuǐguǒtān de jiāoyì, bìng tántan nǐ huì zěnyàng xuǎnzé.",
+    "translation": "Describe the transaction at the fruit stall and explain how you would choose.",
+    "answer": "这是一处水果摊。顾客正在指着苹果，店员用秤确认重量，旁边还摆着香蕉。他们可能正在商量买多少。如果是我，我会先问价格，再看看水果是否新鲜。我一般选择当季水果，因为味道通常不错，价格也比较合理。买得太多吃不完，反而会浪费。",
+    "answerEnglish": "At the stall a customer points to apples while the seller weighs fruit. They may be discussing quantity. I would ask the price and check freshness. I usually buy seasonal fruit for its taste and value, and avoid buying more than I can eat.",
+    "analysis": "Use specific visible actions, then explain a purchasing rule. 是否 introduces a yes-or-no issue inside a sentence. Finish by relating quantity to waste.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "新鲜",
+        "pinyin": "xīnxiān",
+        "english": "fresh"
+      },
+      {
+        "word": "浪费",
+        "pinyin": "làngfèi",
+        "english": "waste"
+      }
+    ],
+    "followUp": "价格和质量哪个更重要？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "market",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-topic-1",
+    "level": 4,
+    "part": "topic",
+    "title": "A mistake that helped",
+    "prompt": "请介绍一次错误，以及你从中学到了什么。",
+    "pinyin": "Qǐng jièshào yí cì cuòwù, yǐjí nǐ cóng zhōng xué dào le shénme.",
+    "translation": "Describe a mistake and what you learned from it.",
+    "answer": "有一次，我把小组作业的截止时间记错了，以为星期五才交，实际上星期四就到期了。我发现以后先向同学说明情况，再和大家分配剩下的任务。虽然最后按时交了，内容却不够仔细。从那以后，我会把重要日期写进日历，并提前一天检查进度。对我来说，承认错误只是第一步，改变做事的方法才更重要。",
+    "answerEnglish": "I once wrote down the wrong deadline for a group assignment. When I noticed, I told my classmates and we divided the remaining work. We submitted on time, but the result lacked care. Now I put deadlines in a calendar and check progress a day early. Admitting a mistake is only the first step; changing the process matters more.",
+    "analysis": "Use situation, action, consequence and lesson. Keeping the imperfect result makes the story credible. 截止时间 is the deadline, while 到期 describes it being reached.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "截止时间",
+        "pinyin": "jiézhǐ shíjiān",
+        "english": "deadline"
+      },
+      {
+        "word": "分配",
+        "pinyin": "fēnpèi",
+        "english": "allocate"
+      }
+    ],
+    "followUp": "如果队友犯了同样的错误呢？",
+    "prep": 45,
+    "seconds": 120,
+    "free": true,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-topic-2",
+    "level": 4,
+    "part": "topic",
+    "title": "A car-free city center",
+    "prompt": "你支持市中心限制私家车吗？",
+    "pinyin": "Nǐ zhīchí shìzhōngxīn xiànzhì sījiāchē ma?",
+    "translation": "Do you support restricting private cars in city centers?",
+    "answer": "我基本支持，但前提是公共交通足够方便。限制私家车可以减少拥堵，也能让步行的人更安全。例如，我住的城市有一条步行街，改造后大家更愿意在那里逛商店。不过，老人和行动不便的人可能需要特别安排。因此，我认为应该先增加公交线路，再逐步限制汽车，而不是突然禁止所有车辆。",
+    "answerEnglish": "I broadly support it, provided public transport is convenient. Restrictions can reduce congestion and make walking safer. A pedestrian street in my city attracts more shoppers after its redesign. Older people and people with mobility difficulties need accommodations, though. I would expand bus routes first and introduce restrictions gradually.",
+    "analysis": "State a conditional position rather than an absolute slogan. A concrete local example supports the benefit; the accessibility exception supports the policy sequence.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "前提",
+        "pinyin": "qiántí",
+        "english": "precondition"
+      },
+      {
+        "word": "逐步",
+        "pinyin": "zhúbù",
+        "english": "gradually"
+      }
+    ],
+    "followUp": "公交费用提高会影响你的看法吗？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L4-topic-3",
+    "level": 4,
+    "part": "topic",
+    "title": "Online classes",
+    "prompt": "线上学习能完全代替课堂学习吗？",
+    "pinyin": "Xiànshàng xuéxí néng wánquán dàitì kètáng xuéxí ma?",
+    "translation": "Can online learning completely replace classroom learning?",
+    "answer": "我认为不能完全代替。线上课程的优点是时间灵活，听不懂的地方还可以反复看。我学发音时就常常用这种方法。不过，课堂上的交流更直接，老师也比较容易发现学生的问题。比如练习对话时，同学的即时反应很难用视频代替。所以我更愿意把两种方式结合起来：在网上预习，在课堂上练习和提问。",
+    "answerEnglish": "I do not think it can replace classes completely. Online lessons are flexible and can be replayed, which helps me with pronunciation. In class, interaction is more direct and teachers can notice difficulties. A partner's immediate response is hard to replace with a video. I would preview online and practice in class.",
+    "analysis": "Distinguish recorded content from live interaction. The conclusion combines methods instead of repeating both lists. 完全 is the key qualifier in the question.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "灵活",
+        "pinyin": "línghuó",
+        "english": "flexible"
+      },
+      {
+        "word": "结合",
+        "pinyin": "jiéhé",
+        "english": "combine"
+      }
+    ],
+    "followUp": "什么内容最适合在线学习？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-repeat-1",
+    "level": 5,
+    "part": "repeat",
+    "title": "A library experiment",
+    "prompt": "一家图书馆把闭馆时间从六点延长到九点，原本担心费用会大幅增加。试行一个月后，晚间读者明显增多，主要是下班后的年轻人。图书馆通过调整排班控制了成本，决定继续开放夜间自习区。",
+    "pinyin": "Yì jiā túshūguǎn bǎ bìguǎn shíjiān cóng liù diǎn yáncháng dào jiǔ diǎn, yuánběn dānxīn fèiyòng huì dàfú zēngjiā. Shìxíng yí ge yuè hòu, wǎnjiān dúzhě míngxiǎn zēngduō, zhǔyào shì xiàbān hòu de niánqīngrén. Túshūguǎn tōngguò tiáozhěng páibān kòngzhì le chéngběn, juédìng jìxù kāifàng yèjiān zìxíqū.",
+    "translation": "Retell the library's extended-hours trial, its results and its decision.",
+    "answer": "一家图书馆尝试把闭馆时间推迟三个小时。虽然最初担心成本上涨，但一个月的试行表明，晚间需求确实很大，尤其是下班后的年轻人。通过调整员工排班，图书馆控制了额外支出，因此决定保留夜间自习区。",
+    "answerEnglish": "A library tried closing three hours later. It initially feared higher costs, but a month-long trial showed strong evening demand, especially from young workers. Staff scheduling kept extra spending under control, so the evening study area was retained.",
+    "analysis": "Retain the concern, evidence and decision. Three hours later is an accurate compression of six to nine. Do not claim that all library services remain open at night.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "延长",
+        "pinyin": "yáncháng",
+        "english": "extend"
+      },
+      {
+        "word": "成本",
+        "pinyin": "chéngběn",
+        "english": "cost"
+      }
+    ],
+    "followUp": "如何判断这项服务是否值得保留？",
+    "prep": 0,
+    "seconds": 90,
+    "free": true,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-repeat-2",
+    "level": 5,
+    "part": "repeat",
+    "title": "A shop learns to listen",
+    "prompt": "一家小店推出环保包装后，顾客反映包装虽然好看，却不方便携带。店主没有马上取消计划，而是邀请常客试用三种新设计。最后选中的方案少用了一半材料，同时增加了提手，销量也逐渐恢复。",
+    "pinyin": "Yì jiā xiǎodiàn tuīchū huánbǎo bāozhuāng hòu, gùkè fǎnyìng bāozhuāng suīrán hǎokàn, què bù fāngbiàn xiédài. Diànzhǔ méiyǒu mǎshàng qǔxiāo jìhuà, ér shì yāoqǐng chángkè shìyòng sān zhǒng xīn shèjì. Zuìhòu xuǎnzhòng de fāng'àn shǎo yòng le yíbàn cáiliào, tóngshí zēngjiā le tíshǒu, xiāoliàng yě zhújiàn huīfù.",
+    "translation": "Retell how a shop redesigned inconvenient eco-friendly packaging.",
+    "answer": "小店的新环保包装不够方便，受到顾客批评。店主于是让常客比较三种改进设计，最终采用了材料更少、带有提手的方案。新包装兼顾了环保和使用体验，销量随后慢慢恢复。",
+    "answerEnglish": "Customers criticized the shop's inconvenient eco-friendly packaging. The owner asked regulars to test three redesigns and chose one using less material with a handle. It balanced sustainability and usability, and sales gradually recovered.",
+    "analysis": "The improvement has two features, not just less material. 恢复 means recovering, not breaking a sales record. Keep the customer's role in the experiment.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "包装",
+        "pinyin": "bāozhuāng",
+        "english": "packaging"
+      },
+      {
+        "word": "兼顾",
+        "pinyin": "jiāngù",
+        "english": "take both into account"
+      }
+    ],
+    "followUp": "环保设计应该先解决什么问题？",
+    "prep": 0,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-repeat-3",
+    "level": 5,
+    "part": "repeat",
+    "title": "A volunteer project",
+    "prompt": "一群大学生每周去社区教老人使用手机。开始时，他们讲得太快，老人回家后仍然不会操作。后来，学生把每一步拍成图片，并让老人当场独立完成。几周后，参加者不仅能挂号，还开始互相帮助。",
+    "pinyin": "Yì qún dàxuéshēng měi zhōu qù shèqū jiāo lǎorén shǐyòng shǒujī. Kāishǐ shí, tāmen jiǎng de tài kuài, lǎorén huí jiā hòu réngrán bú huì cāozuò. Hòulái, xuésheng bǎ měi yí bù pāi chéng túpiàn, bìng ràng lǎorén dāngchǎng dúlì wánchéng. Jǐ zhōu hòu, cānjiāzhě bùjǐn néng guàhào, hái kāishǐ hùxiāng bāngzhù.",
+    "translation": "Retell the problem, teaching adjustment and outcome of the phone lessons.",
+    "answer": "大学生志愿者起初讲解手机操作太快，老人难以记住。后来他们制作了分步图片，并安排老人现场练习。这样的调整提高了学习效果，几周后老人能自己挂号，还会帮助其他参加者。",
+    "answerEnglish": "The volunteers initially taught phone skills too quickly. They then made step-by-step picture guides and had learners practice independently. After several weeks, participants could book medical appointments and help one another.",
+    "analysis": "Do not omit the independent practice: it explains why the new method worked. Retain both practical independence and peer support as outcomes.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "志愿者",
+        "pinyin": "zhìyuànzhě",
+        "english": "volunteer"
+      },
+      {
+        "word": "独立",
+        "pinyin": "dúlì",
+        "english": "independent"
+      }
+    ],
+    "followUp": "你会怎样检查别人是否学会了？",
+    "prep": 0,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-read-1",
+    "level": 5,
+    "part": "read",
+    "title": "Repairing trust",
+    "prompt": "真正有效的道歉，不只是表达后悔。受到影响的人通常更关心问题会怎样解决，以及同样的事情是否还会发生。因此，承认责任、提出具体的补救办法，并在之后兑现承诺，往往比反复解释自己的动机更重要。",
+    "pinyin": "Zhēnzhèng yǒuxiào de dàoqiàn, bù zhǐ shì biǎodá hòuhuǐ. Shòudào yǐngxiǎng de rén tōngcháng gèng guānxīn wèntí huì zěnyàng jiějué, yǐjí tóngyàng de shìqing shìfǒu hái huì fāshēng. Yīncǐ, chéngrèn zérèn, tíchū jùtǐ de bǔjiù bànfǎ, bìng zài zhīhòu duìxiàn chéngnuò, wǎngwǎng bǐ fǎnfù jiěshì zìjǐ de dòngjī gèng zhòngyào.",
+    "translation": "An effective apology involves responsibility, concrete remedies and keeping promises, not just regret or explanations.",
+    "answer": "真正有效的道歉，不只是表达后悔。受到影响的人通常更关心问题会怎样解决，以及同样的事情是否还会发生。因此，承认责任、提出具体的补救办法，并在之后兑现承诺，往往比反复解释自己的动机更重要。",
+    "answerEnglish": "An effective apology is more than an expression of regret. Those affected want to know how the problem will be resolved and whether it will happen again. Accepting responsibility, proposing remedies and keeping promises matter more than repeatedly explaining motives.",
+    "analysis": "Pause before the three parallel actions. Hold the comparison open until 更重要. Avoid turning every comma into a full stop, which obscures the argument.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "补救",
+        "pinyin": "bǔjiù",
+        "english": "remedy"
+      },
+      {
+        "word": "承诺",
+        "pinyin": "chéngnuò",
+        "english": "promise"
+      }
+    ],
+    "followUp": "怎样的道歉让你觉得有诚意？",
+    "prep": 30,
+    "seconds": 60,
+    "free": true,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-read-2",
+    "level": 5,
+    "part": "read",
+    "title": "The value of a pause",
+    "prompt": "忙碌容易让人产生充实的感觉，却未必意味着真正取得了进展。如果每天只是在回应新的消息，我们可能没有时间思考最重要的目标。适当暂停，重新安排优先顺序，有时反而能让之后的努力更有方向。",
+    "pinyin": "Mánglù róngyì ràng rén chǎnshēng chōngshí de gǎnjué, què wèibì yìwèizhe zhēnzhèng qǔdé le jìnzhǎn. Rúguǒ měitiān zhǐ shì zài huíyìng xīn de xiāoxi, wǒmen kěnéng méiyǒu shíjiān sīkǎo zuì zhòngyào de mùbiāo. Shìdàng zàntíng, chóngxīn ānpái yōuxiān shùnxù, yǒushí fǎn'ér néng ràng zhīhòu de nǔlì gèng yǒu fāngxiàng.",
+    "translation": "Being busy can feel rewarding without producing progress. Pausing to reconsider priorities can make later effort more purposeful.",
+    "answer": "忙碌容易让人产生充实的感觉，却未必意味着真正取得了进展。如果每天只是在回应新的消息，我们可能没有时间思考最重要的目标。适当暂停，重新安排优先顺序，有时反而能让之后的努力更有方向。",
+    "answerEnglish": "Busyness can feel fulfilling without bringing real progress. Constantly responding to messages leaves little time for important goals. A pause to reset priorities can give later effort a clearer direction.",
+    "analysis": "Contrast 忙碌 with 进展 through stress rather than volume. Separate 重新安排 from 优先顺序 at the phrase boundary, not inside either word.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "优先",
+        "pinyin": "yōuxiān",
+        "english": "prioritize"
+      },
+      {
+        "word": "进展",
+        "pinyin": "jìnzhǎn",
+        "english": "progress"
+      }
+    ],
+    "followUp": "你如何区分忙碌与有效率？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-read-3",
+    "level": 5,
+    "part": "read",
+    "title": "Local knowledge",
+    "prompt": "游客常常希望一次旅行能看遍所有景点，结果把大部分时间花在路上。相反，在一个街区多停留一会儿，和当地人聊聊，也许更能理解这座城市。旅行的收获，不一定取决于走了多远，还在于观察得有多仔细。",
+    "pinyin": "Yóukè chángcháng xīwàng yí cì lǚxíng néng kàn biàn suǒyǒu jǐngdiǎn, jiéguǒ bǎ dàbùfen shíjiān huā zài lùshang. Xiāngfǎn, zài yí ge jiēqū duō tíngliú yíhuìr, hé dāngdì rén liáoliao, yěxǔ gèng néng lǐjiě zhè zuò chéngshì. Lǚxíng de shōuhuò, bù yídìng qǔjué yú zǒu le duō yuǎn, hái zài yú guānchá de yǒu duō zǐxì.",
+    "translation": "A packed sightseeing schedule can leave little time to understand a city. Slower observation and local conversations may offer more.",
+    "answer": "游客常常希望一次旅行能看遍所有景点，结果把大部分时间花在路上。相反，在一个街区多停留一会儿，和当地人聊聊，也许更能理解这座城市。旅行的收获，不一定取决于走了多远，还在于观察得有多仔细。",
+    "answerEnglish": "Travelers who try to see everything often spend most of their time in transit. Staying in one neighborhood and talking to residents may reveal more. A trip's value depends on careful observation as well as distance traveled.",
+    "analysis": "Carry 相反 into the next clause. Observe the rising shape of the second syllable of 观察, and avoid adding syllables to 取决于.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "取决于",
+        "pinyin": "qǔjué yú",
+        "english": "depend on"
+      },
+      {
+        "word": "观察",
+        "pinyin": "guānchá",
+        "english": "observe"
+      }
+    ],
+    "followUp": "你喜欢紧凑还是宽松的旅行安排？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-picture-1",
+    "level": 5,
+    "part": "picture",
+    "title": "Work beyond the office",
+    "prompt": "描述图中的咖啡馆，再分析在公共空间工作的利弊。",
+    "pinyin": "Miáoshù tú zhōng de kāfēiguǎn, zài fēnxī zài gōnggòng kōngjiān gōngzuò de lìbì.",
+    "translation": "Describe the café, then discuss the benefits and drawbacks of working in public.",
+    "answer": "图中两个人坐在同一张桌子旁，分别使用电脑和书本，桌上还有饮品。这可能是一次共同学习，也可能只是两个人各自处理任务。在公共空间工作，可以改变环境，减少独自在家的沉闷感；但噪声、座位和网络都不一定稳定。涉及私人资料时，更需要注意屏幕是否会被别人看到。因此，我会把咖啡馆当作偶尔整理想法的地方，而不是处理所有工作的固定办公室。",
+    "answerEnglish": "Two people share a café table with a laptop, a book and drinks. They may be studying together or working independently. Public spaces offer a change of scene, but noise, seating and connectivity can be unreliable. Privacy also matters. I would use a café occasionally to organize ideas rather than for every task.",
+    "analysis": "Separate observation, alternative interpretations and evaluation. Your privacy point is a general consideration, not something the picture proves. Keep the evaluation connected to the visible shared workspace.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "利弊",
+        "pinyin": "lìbì",
+        "english": "pros and cons"
+      },
+      {
+        "word": "稳定",
+        "pinyin": "wěndìng",
+        "english": "stable"
+      }
+    ],
+    "followUp": "什么工作不适合在公共场所完成？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "cafe",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-picture-2",
+    "level": 5,
+    "part": "picture",
+    "title": "Access to transport",
+    "prompt": "描述雨中的公交站，并讨论公共交通如何照顾不同乘客。",
+    "pinyin": "Miáoshù yǔ zhōng de gōngjiāozhàn, bìng tǎolùn gōnggòng jiāotōng rúhé zhàogù bùtóng chéngkè.",
+    "translation": "Describe the rainy stop and discuss how public transport can serve different passengers.",
+    "answer": "画面中，一位乘客撑伞等车，公共汽车正在接近。雨水提醒我们，候车体验不只是车辆是否准时，还包括站台能否遮雨、地面是否防滑。对老人、带孩子的人和行动不便的乘客来说，这些细节尤其重要。我认为改善交通服务，应先检查最基本的使用障碍，再增加复杂的新功能。例如，清楚的站牌和足够的照明，有时比新的宣传屏幕更实用。",
+    "answerEnglish": "A passenger waits under an umbrella as a bus approaches. Rain highlights the importance of shelter and non-slip surfaces as well as punctuality. These details matter especially for older people, carers and passengers with limited mobility. Basic barriers should be removed before elaborate new features are added; clear signs and lighting may be more useful than advertising screens.",
+    "analysis": "Bridge from weather to access through an explicit reason. The picture does not show all the barriers you discuss, so introduce them as design considerations rather than observed defects.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "乘客",
+        "pinyin": "chéngkè",
+        "english": "passenger"
+      },
+      {
+        "word": "障碍",
+        "pinyin": "zhàng'ài",
+        "english": "barrier"
+      }
+    ],
+    "followUp": "预算有限时应先改善哪一项？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "bus",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-picture-3",
+    "level": 5,
+    "part": "picture",
+    "title": "Everyday sustainability",
+    "prompt": "描述水果摊，再谈消费者能怎样减少食物浪费。",
+    "pinyin": "Miáoshù shuǐguǒtān, zài tán xiāofèizhě néng zěnyàng jiǎnshǎo shíwù làngfèi.",
+    "translation": "Describe the fruit stall and discuss how shoppers can reduce food waste.",
+    "answer": "图中顾客指着苹果，店员正在称重，说明购买数量可以按需要决定。减少食物浪费不一定需要复杂的方法：购物前看看家里还剩什么，买适量的当季水果，把容易坏的先吃掉，都是可行的做法。有时促销让我们觉得买得越多越划算，可是如果最后吃不完，实际花费反而更高。所以我更重视真正能用完的数量，而不是包装上看起来很大的折扣。",
+    "answerEnglish": "The customer points to apples while the seller weighs them, suggesting quantity can be chosen. Checking supplies, buying manageable amounts and eating perishable food first can reduce waste. Promotions may make larger purchases look economical, but uneaten food raises the real cost. I care more about what I will use than the apparent discount.",
+    "analysis": "Build the argument around adjustable quantity, which the scale supports. Use 可行 for practical actions. 越…越… describes the tempting belief, not your final conclusion.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "适量",
+        "pinyin": "shìliàng",
+        "english": "a suitable amount"
+      },
+      {
+        "word": "划算",
+        "pinyin": "huásuàn",
+        "english": "good value"
+      }
+    ],
+    "followUp": "商家应不应该为食物浪费负责？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "market",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-topic-1",
+    "level": 5,
+    "part": "topic",
+    "title": "A four-day workweek",
+    "prompt": "工作天数减少一定能提高生活质量吗？",
+    "pinyin": "Gōngzuò tiānshù jiǎnshǎo yídìng néng tígāo shēnghuó zhìliàng ma?",
+    "translation": "Does reducing the number of working days necessarily improve quality of life?",
+    "answer": "我认为不一定，关键在于工作量是否也得到合理调整。如果只是把五天的任务压缩到四天，员工可能每天更累，甚至把工作带回家。相反，如果企业减少无效会议、明确任务重点，较短的工作周就可能带来真正的休息。以服务行业为例，还必须考虑顾客需求和轮班安排。因此，与其只统计上班天数，不如同时观察总工时、工作压力和收入是否稳定。这样才能判断改革有没有改善生活。",
+    "answerEnglish": "Not necessarily: the workload must change too. Compressing five days of tasks into four may increase exhaustion or unpaid work at home. Reducing unnecessary meetings and setting priorities could create real rest, but service businesses also need coverage. I would assess total hours, stress and income stability rather than count days alone.",
+    "analysis": "Challenge 一定 with a mechanism and counterexample. The final indicators turn a vague preference into an assessable position. Do not claim a study or statistic you cannot name.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "压缩",
+        "pinyin": "yāsuō",
+        "english": "compress"
+      },
+      {
+        "word": "工时",
+        "pinyin": "gōngshí",
+        "english": "working hours"
+      }
+    ],
+    "followUp": "如果工资也减少，你还支持吗？",
+    "prep": 45,
+    "seconds": 150,
+    "free": true,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-topic-2",
+    "level": 5,
+    "part": "topic",
+    "title": "When reviews disagree",
+    "prompt": "网上评价彼此矛盾时，你怎样决定是否购买？",
+    "pinyin": "Wǎngshàng píngjià bǐcǐ máodùn shí, nǐ zěnyàng juédìng shìfǒu gòumǎi?",
+    "translation": "How do you decide whether to buy something when online reviews conflict?",
+    "answer": "我会先区分评价说的是产品本身，还是配送和售后。接着看具体使用条件是否与我相似。例如，别人嫌电脑太重，对每天通勤的人很重要，但对一直放在家里使用的人影响较小。我也会留意评价是否只重复宣传词，有没有说明使用时间和遇到的问题。最后，如果商品价格高，我宁愿先试用或确认退货条件，也不会因为平均分很高就马上下单。评价是参考，不能代替对自己需求的判断。",
+    "answerEnglish": "I separate comments about the product from delivery or support, then check whether the reviewer's circumstances match mine. A heavy laptop matters more to a commuter than a home user. I look for specific experience rather than promotional language. For an expensive item, I would try it or check returns before buying. Ratings inform a decision but do not define my needs.",
+    "analysis": "Organize the process in stages, illustrated by one purchase. The concluding distinction between reference and judgment answers the uncertainty in the question.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "矛盾",
+        "pinyin": "máodùn",
+        "english": "conflict"
+      },
+      {
+        "word": "售后",
+        "pinyin": "shòuhòu",
+        "english": "after-sales support"
+      }
+    ],
+    "followUp": "你怎样识别不可靠的评价？",
+    "prep": 45,
+    "seconds": 150,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L5-topic-3",
+    "level": 5,
+    "part": "topic",
+    "title": "Preserving a neighborhood",
+    "prompt": "老街改造应该优先发展旅游，还是保护居民生活？",
+    "pinyin": "Lǎojiē gǎizào yīnggāi yōuxiān fāzhǎn lǚyóu, háishi bǎohù jūmín shēnghuó?",
+    "translation": "Should an old neighborhood's renovation prioritize tourism or residents' lives?",
+    "answer": "我更倾向于先保护居民生活，因为老街首先是有人居住的地方。发展旅游可以带来收入，也可能帮助修复建筑，但如果日常商店全变成纪念品店，居民反而失去了生活便利。我认为可以保留基本服务，限制夜间噪声，并让居民参与决定哪些区域适合开放。旅游收入的一部分也应回到公共设施维护上。这样，保护与发展才不是口号，而是能在具体规则中同时体现的目标。",
+    "answerEnglish": "I would put residents first: the neighborhood is their home. Tourism can fund restoration, but replacing everyday shops with souvenir stores harms daily life. Essential services, noise limits and resident participation should be protected, and some tourism income should support public facilities. Clear rules can make preservation and development work together.",
+    "analysis": "Acknowledge the economic benefit before explaining the trade-off. Three concrete rules are stronger than a long list of abstract values. 倾向于 states preference without implying every case is identical.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "修复",
+        "pinyin": "xiūfù",
+        "english": "restore"
+      },
+      {
+        "word": "维护",
+        "pinyin": "wéihù",
+        "english": "maintain"
+      }
+    ],
+    "followUp": "如果居民意见不一致怎么办？",
+    "prep": 45,
+    "seconds": 150,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-repeat-1",
+    "level": 6,
+    "part": "repeat",
+    "title": "A public consultation",
+    "prompt": "某市计划把一条旧铁路改成步行绿道。最初方案强调吸引游客，却忽略了附近居民日常通行的需求。公开征求意见后，设计团队增加了连接学校和医院的出入口，并保留部分铁路遗迹。项目预算没有明显增加，但评价标准从游客数量转向了居民使用率和维护成本。",
+    "pinyin": "Mǒu shì jìhuà bǎ yì tiáo jiù tiělù gǎi chéng bùxíng lǜdào. Zuìchū fāng'àn qiángdiào xīyǐn yóukè, què hūlüè le fùjìn jūmín rìcháng tōngxíng de xūqiú. Gōngkāi zhēngqiú yìjiàn hòu, shèjì tuánduì zēngjiā le liánjiē xuéxiào hé yīyuàn de chūrùkǒu, bìng bǎoliú bùfen tiělù yíjì. Xiàngmù yùsuàn méiyǒu míngxiǎn zēngjiā, dàn píngjià biāozhǔn cóng yóukè shùliàng zhuǎnxiàng le jūmín shǐyònglǜ hé wéihù chéngběn.",
+    "translation": "Retell the consultation, design changes and shift in project evaluation.",
+    "answer": "某市将旧铁路改造为绿道时，原方案过于重视旅游，未充分考虑居民出行。征求公众意见后，团队增设了通往学校和医院的出入口，同时保留铁路遗迹。预算基本不变，评价重点却转为居民的实际使用情况及后续维护成本。",
+    "answerEnglish": "A city's rail-to-trail proposal initially favored tourism over local travel needs. Consultation led to entrances serving schools and hospitals while retaining railway heritage. The budget stayed broadly stable, but evaluation shifted toward resident use and maintenance costs.",
+    "analysis": "Keep the change in evaluation, which is the story's main consequence. 基本不变 is a cautious paraphrase of no marked increase, not a claim of an exact unchanged sum.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "征求意见",
+        "pinyin": "zhēngqiú yìjiàn",
+        "english": "seek feedback"
+      },
+      {
+        "word": "遗迹",
+        "pinyin": "yíjì",
+        "english": "historic remains"
+      }
+    ],
+    "followUp": "怎样避免公众咨询流于形式？",
+    "prep": 0,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-repeat-2",
+    "level": 6,
+    "part": "repeat",
+    "title": "An algorithm revised",
+    "prompt": "一家招聘平台发现，自动筛选系统经常忽略有职业空档的申请者。审核人员指出，空档可能来自照护家庭或继续学习，不能直接说明能力不足。平台于是取消了这一简单指标，增加人工复核，并定期比较不同群体进入面试的比例，但没有承诺消除所有偏差。",
+    "pinyin": "Yì jiā zhāopìn píngtái fāxiàn, zìdòng shāixuǎn xìtǒng jīngcháng hūlüè yǒu zhíyè kòngdàng de shēnqǐngzhě. Shěnhé rényuán zhǐchū, kòngdàng kěnéng láizì zhàohù jiātíng huò jìxù xuéxí, bù néng zhíjiē shuōmíng nénglì bùzú. Píngtái yúshì qǔxiāo le zhè yì jiǎndān zhǐbiāo, zēngjiā réngōng fùhé, bìng dìngqī bǐjiào bùtóng qúntǐ jìnrù miànshì de bǐlì, dàn méiyǒu chéngnuò xiāochú suǒyǒu piānchā.",
+    "translation": "Retell why a recruitment platform changed its screening system and what limits remained.",
+    "answer": "招聘平台发现系统对职业经历中断者不利，而中断并不必然代表能力不足，也可能与照护或学习有关。因此，平台不再把职业空档作为简单筛选依据，同时引入人工复核和群体间面试比例的定期比较。这些调整旨在减少偏差，并不意味着偏差已经完全消失。",
+    "answerEnglish": "The platform found that career gaps disadvantaged applicants even when they reflected care work or study rather than lack of ability. It removed that crude screening criterion, introduced human review and compared interview rates across groups. The changes aimed to reduce bias without claiming to eliminate it.",
+    "analysis": "Preserve the limitation in the last sentence. Do not turn a process improvement into proof of fairness. Explain the two alternative reasons for career gaps succinctly.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "筛选",
+        "pinyin": "shāixuǎn",
+        "english": "screen"
+      },
+      {
+        "word": "偏差",
+        "pinyin": "piānchā",
+        "english": "bias or deviation"
+      }
+    ],
+    "followUp": "人工复核一定更公平吗？",
+    "prep": 0,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-repeat-3",
+    "level": 6,
+    "part": "repeat",
+    "title": "Measuring learning",
+    "prompt": "一所学校曾用作业提交数量评价在线课程，后来发现学生为了完成指标而重复提交简单任务。教师改为抽取代表性作品，结合口头解释和修改记录判断理解程度。新办法增加了部分审核时间，却减少了机械练习；学校因此决定小范围继续试行，再评估是否推广。",
+    "pinyin": "Yì suǒ xuéxiào céng yòng zuòyè tíjiāo shùliàng píngjià zàixiàn kèchéng, hòulái fāxiàn xuésheng wèile wánchéng zhǐbiāo ér chóngfù tíjiāo jiǎndān rènwu. Jiàoshī gǎi wéi chōuqǔ dàibiǎoxìng zuòpǐn, jiéhé kǒutóu jiěshì hé xiūgǎi jìlù pànduàn lǐjiě chéngdù. Xīn bànfǎ zēngjiā le bùfen shěnhé shíjiān, què jiǎnshǎo le jīxiè liànxí; xuéxiào yīncǐ juédìng xiǎo fànwéi jìxù shìxíng, zài pínggū shìfǒu tuīguǎng.",
+    "translation": "Retell the failure of a submission-count metric and the cautious trial of a replacement.",
+    "answer": "学校原先按作业数量评价课程，却诱发了重复提交简单任务的行为。教师随后把代表性作品、口头说明和修改过程结合起来，判断学生是否真正理解。虽然审核更费时，机械练习有所减少，所以学校选择继续小范围试行，而不是立即全面推广。",
+    "answerEnglish": "Counting submissions encouraged repeated easy tasks. Teachers switched to representative work, oral explanations and revision histories to assess understanding. Review took longer but mechanical practice decreased, so the school continued a limited trial rather than expanding immediately.",
+    "analysis": "The trade-off and cautious next step are essential. Do not describe the new method as proven across all schools. Use 诱发 to connect the metric to the unintended behavior.",
+    "hint": "Track who, what changed, why, and the result. Repeat exactly at level 3; retell in your own words at levels 4–6.",
+    "mistakes": [
+      "Replacing source facts with a personal opinion.",
+      "Losing the cause, sequence or final outcome."
+    ],
+    "vocab": [
+      {
+        "word": "指标",
+        "pinyin": "zhǐbiāo",
+        "english": "metric"
+      },
+      {
+        "word": "评估",
+        "pinyin": "pínggū",
+        "english": "evaluate"
+      }
+    ],
+    "followUp": "教育中有哪些难以量化的成果？",
+    "prep": 0,
+    "seconds": 90,
+    "free": false,
+    "scene": null,
+    "task": "retell",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-read-1",
+    "level": 6,
+    "part": "read",
+    "title": "Evidence and confidence",
+    "prompt": "信息传播得越快，判断就越需要耐心。一段表达流畅、立场鲜明的文字，未必拥有可靠的证据。面对复杂问题，我们既要区分事实与推断，也要说明结论适用的条件。承认暂时不知道，并不是放弃判断，而是为之后修正认识保留空间。",
+    "pinyin": "Xìnxī chuánbō de yuè kuài, pànduàn jiù yuè xūyào nàixīn. Yí duàn biǎodá liúchàng, lìchǎng xiānmíng de wénzì, wèibì yōngyǒu kěkào de zhèngjù. Miànduì fùzá wèntí, wǒmen jì yào qūfēn shìshí yǔ tuīduàn, yě yào shuōmíng jiélùn shìyòng de tiáojiàn. Chéngrèn zànshí bù zhīdào, bìng bú shì fàngqì pànduàn, ér shì wèi zhīhòu xiūzhèng rènshi bǎoliú kōngjiān.",
+    "translation": "Faster information calls for more patient judgment. Fluent assertions are not evidence; distinguishing facts, inferences and conditions leaves room for correction.",
+    "answer": "信息传播得越快，判断就越需要耐心。一段表达流畅、立场鲜明的文字，未必拥有可靠的证据。面对复杂问题，我们既要区分事实与推断，也要说明结论适用的条件。承认暂时不知道，并不是放弃判断，而是为之后修正认识保留空间。",
+    "answerEnglish": "As information spreads faster, judgment needs more patience. Fluent, confident prose may lack evidence. We need to distinguish facts from inferences and state the conditions under which conclusions apply. Admitting uncertainty leaves room to revise understanding.",
+    "analysis": "Make the paired structures audible: 越…越…, 既…也…, 并不是…而是…. Stress conceptual contrasts, not every abstract noun. Let the final phrase resolve the paragraph.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "推断",
+        "pinyin": "tuīduàn",
+        "english": "inference"
+      },
+      {
+        "word": "适用",
+        "pinyin": "shìyòng",
+        "english": "apply to"
+      }
+    ],
+    "followUp": "你会在什么情况下改变自己的观点？",
+    "prep": 30,
+    "seconds": 60,
+    "free": true,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-read-2",
+    "level": 6,
+    "part": "read",
+    "title": "The work of preservation",
+    "prompt": "保护传统，并不意味着把它固定在某个理想化的过去。如果一种技艺只能在展览中被观看，却无法进入当代人的生活，它的延续仍然面临困难。真正可持续的传承，需要理解核心价值，也需要允许材料、用途和学习方式发生合理变化。",
+    "pinyin": "Bǎohù chuántǒng, bìng bù yìwèizhe bǎ tā gùdìng zài mǒu ge lǐxiǎnghuà de guòqù. Rúguǒ yì zhǒng jìyì zhǐ néng zài zhǎnlǎn zhōng bèi guānkàn, què wúfǎ jìnrù dāngdài rén de shēnghuó, tā de yánxù réngrán miànlín kùnnan. Zhēnzhèng kě chíxù de chuánchéng, xūyào lǐjiě héxīn jiàzhí, yě xūyào yǔnxǔ cáiliào, yòngtú hé xuéxí fāngshì fāshēng hélǐ biànhuà.",
+    "translation": "Preserving a tradition does not mean freezing it in an idealized past. Sustainable transmission connects core values with reasonable changes in materials, uses and learning.",
+    "answer": "保护传统，并不意味着把它固定在某个理想化的过去。如果一种技艺只能在展览中被观看，却无法进入当代人的生活，它的延续仍然面临困难。真正可持续的传承，需要理解核心价值，也需要允许材料、用途和学习方式发生合理变化。",
+    "answerEnglish": "Preserving tradition does not mean fixing it in an idealized past. A craft confined to exhibitions may struggle to survive. Sustainable transmission requires understanding its core values while allowing reasonable changes to materials, uses and learning methods.",
+    "analysis": "Keep 如果…却… as one conditional contrast. Use a small pause between the three items in the last list, without detaching them from 发生合理变化.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "传承",
+        "pinyin": "chuánchéng",
+        "english": "transmit a tradition"
+      },
+      {
+        "word": "核心",
+        "pinyin": "héxīn",
+        "english": "core"
+      }
+    ],
+    "followUp": "改变到什么程度仍算保护传统？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-read-3",
+    "level": 6,
+    "part": "read",
+    "title": "Efficiency with room to spare",
+    "prompt": "过度追求即时效率，有时会削弱系统应对意外的能力。看似闲置的资源，可能正是高峰时期维持服务的保障。因此，评价一个组织，不能只看平时的利用率，还应考察它在人员缺席、需求突增或设备故障时，是否仍能完成最基本的任务。",
+    "pinyin": "Guòdù zhuīqiú jíshí xiàolǜ, yǒushí huì xuēruò xìtǒng yìngduì yìwài de nénglì. Kàn sì xiánzhì de zīyuán, kěnéng zhèng shì gāofēng shíqī wéichí fúwù de bǎozhàng. Yīncǐ, píngjià yí ge zǔzhī, bù néng zhǐ kàn píngshí de lìyònglǜ, hái yīng kǎochá tā zài rényuán quēxí, xūqiú tūzēng huò shèbèi gùzhàng shí, shìfǒu réng néng wánchéng zuì jīběn de rènwu.",
+    "translation": "Maximizing immediate efficiency may weaken resilience. Spare capacity can protect essential services when demand surges or equipment fails.",
+    "answer": "过度追求即时效率，有时会削弱系统应对意外的能力。看似闲置的资源，可能正是高峰时期维持服务的保障。因此，评价一个组织，不能只看平时的利用率，还应考察它在人员缺席、需求突增或设备故障时，是否仍能完成最基本的任务。",
+    "answerEnglish": "An excessive focus on immediate efficiency can reduce the ability to handle surprises. Apparently idle resources may protect service at peak times. Organizations should be judged by their ability to maintain essential tasks during absence, surges or failures as well as ordinary utilization.",
+    "analysis": "削弱 starts with xuē, not xiāo. Keep the three disruption scenarios parallel, and make 是否 lead naturally to the final question embedded in the sentence.",
+    "hint": "Mark phrase boundaries. Keep the text intact; pause at punctuation.",
+    "mistakes": [
+      "Reading character by character instead of in meaningful phrases.",
+      "Changing a word or skipping a clause to keep up."
+    ],
+    "vocab": [
+      {
+        "word": "削弱",
+        "pinyin": "xuēruò",
+        "english": "weaken"
+      },
+      {
+        "word": "保障",
+        "pinyin": "bǎozhàng",
+        "english": "safeguard"
+      }
+    ],
+    "followUp": "保留备用资源会不会造成浪费？",
+    "prep": 30,
+    "seconds": 60,
+    "free": false,
+    "scene": null,
+    "task": "read",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-picture-1",
+    "level": 6,
+    "part": "picture",
+    "title": "Shared space, different needs",
+    "prompt": "从咖啡馆画面出发，讨论公共空间中个人自由与他人需求的关系。",
+    "pinyin": "Cóng kāfēiguǎn huàmiàn chūfā, tǎolùn gōnggòng kōngjiān zhōng gèrén zìyóu yǔ tārén xūqiú de guānxi.",
+    "translation": "Use the café scene to discuss personal freedom and others' needs in shared spaces.",
+    "answer": "画面里，两个人在咖啡馆的同一张桌子旁阅读或使用电脑。我们无法仅凭图片判断他们是否在交谈，但这类空间往往同时承担休息、社交和工作的功能。个人当然可以选择如何使用座位，不过自由也受共同规则约束。例如，长时间占用大桌、外放声音，可能增加其他顾客的负担。我认为管理者应明确高峰时段的使用规则，并提供可以沟通的例外安排。规则越清楚，顾客越不需要靠猜测或争执来协调彼此的需求。",
+    "answerEnglish": "Two people use a café table for reading or computer work. Such spaces support rest, socializing and work. Personal choice sits within shared rules: occupying a large table or playing audio may burden others. Clear peak-hour policies with reasonable exceptions reduce the need for customers to negotiate through conflict.",
+    "analysis": "Begin with observed detail and an epistemic limit, then generalize. Your examples describe possible conflicts, not misconduct proved by the picture. Keep the transition from description to argument explicit.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "约束",
+        "pinyin": "yuēshù",
+        "english": "constrain"
+      },
+      {
+        "word": "协调",
+        "pinyin": "xiétiáo",
+        "english": "coordinate"
+      }
+    ],
+    "followUp": "统一规则会不会忽略个体差异？",
+    "prep": 45,
+    "seconds": 120,
+    "free": true,
+    "scene": "cafe",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-picture-2",
+    "level": 6,
+    "part": "picture",
+    "title": "Designing for bad days",
+    "prompt": "结合雨中候车的画面，谈谈衡量公共服务质量时应关注谁。",
+    "pinyin": "Jiéhé yǔ zhōng hòuchē de huàmiàn, tántan héngliáng gōnggòng fúwù zhìliàng shí yīng guānzhù shéi.",
+    "translation": "Use the rainy bus-stop scene to discuss whose experience should count in service quality.",
+    "answer": "画面中，一位撑伞的乘客等待接近的公交车。对天气好、行动方便的人来说，候车可能只是几分钟；但同样的环境，对提重物、照顾孩子或行动不便的人，负担可能完全不同。因此，公共服务不应只以平均等待时间衡量，还应观察最容易被忽略的使用情境。遮雨设施、防滑地面和清楚的到站信息，未必显眼，却能减少实际障碍。我的观点是，评价应同时报告整体效率与弱势使用者的体验，否则平均数字可能掩盖服务没有覆盖到的人。",
+    "answerEnglish": "A passenger waits in the rain. The same short wait can impose very different burdens on people carrying items, caring for children or facing mobility barriers. Average waiting time alone is insufficient: shelter, surfaces and clear information affect access. Assessment should include both overall efficiency and the experiences hidden by averages.",
+    "analysis": "Develop the argument from unequal burdens, then propose two complementary measures. Do not imply the illustration contains a disabled passenger or a documented service failure.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "衡量",
+        "pinyin": "héngliáng",
+        "english": "measure"
+      },
+      {
+        "word": "掩盖",
+        "pinyin": "yǎngài",
+        "english": "conceal"
+      }
+    ],
+    "followUp": "怎样收集被忽略的使用者反馈？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "bus",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-picture-3",
+    "level": 6,
+    "part": "picture",
+    "title": "Price beyond the label",
+    "prompt": "结合水果交易画面，讨论价格是否能反映商品的全部价值。",
+    "pinyin": "Jiéhé shuǐguǒ jiāoyì huàmiàn, tǎolùn jiàgé shìfǒu néng fǎnyìng shāngpǐn de quánbù jiàzhí.",
+    "translation": "Use the fruit-stall scene to discuss whether price reflects a product's full value.",
+    "answer": "图中店员称量水果，顾客指向苹果，重量和数量似乎是交易的重要依据。但价格并不能自动呈现商品的全部价值。对消费者而言，新鲜程度、购买距离和能否按需购买，同样影响实际收益；对生产者而言，运输和保存条件也会形成成本。不过，我们不能因为看见一个小摊就断言它更环保或更公平。更合理的做法是明确自己关心的标准，再寻找相应信息。我会把价格当作判断的起点，而不是把便宜或昂贵直接等同于好坏。",
+    "answerEnglish": "The scale suggests weight matters in the transaction, but price cannot express every aspect of value. Freshness, access and flexible quantities matter to shoppers; transport and storage affect producer costs. A small stall is not automatically greener or fairer. I would define relevant criteria and seek evidence, using price as a starting point rather than a verdict.",
+    "analysis": "Distinguish visible evidence from unsupported ethical claims. The concession prevents a simplistic small-is-good argument, while the conclusion offers a usable decision method.",
+    "hint": "Place → people → actions → cautious inference → relevant comment.",
+    "mistakes": [
+      "Presenting an imagined relationship as a visible fact.",
+      "Listing objects without describing actions or linking ideas."
+    ],
+    "vocab": [
+      {
+        "word": "收益",
+        "pinyin": "shōuyì",
+        "english": "benefit or return"
+      },
+      {
+        "word": "等同",
+        "pinyin": "děngtóng",
+        "english": "equate"
+      }
+    ],
+    "followUp": "如果无法取得全部信息，怎样决定？",
+    "prep": 45,
+    "seconds": 120,
+    "free": false,
+    "scene": "market",
+    "task": "picture",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-topic-1",
+    "level": 6,
+    "part": "topic",
+    "title": "Who owns an automated decision?",
+    "prompt": "当自动系统作出错误决定时，责任应该由谁承担？",
+    "pinyin": "Dāng zìdòng xìtǒng zuò chū cuòwù juédìng shí, zérèn yīnggāi yóu shéi chéngdān?",
+    "translation": "Who should be accountable when an automated system makes a wrong decision?",
+    "answer": "我认为不能简单归咎于系统，也不能让最后点击确认的人承担全部责任。首先，应区分设计、部署和使用三个环节：开发者需要说明已知限制，机构需要评估适用场景，使用者则应遵守审核要求。例如，自动筛选简历出现偏差，既可能与训练资料有关，也可能源于企业选择了不合理的指标。与此同时，受到影响的人必须有清楚的申诉渠道，不能被迫理解复杂技术后才有资格提出异议。因此，责任应按控制能力和可预见风险分配，并由实际部署系统的机构承担明确的对外解释与纠错义务。",
+    "answerEnglish": "Responsibility should not be assigned to a machine or solely to the last person who approved its output. Designers, deployers and users have distinct duties. Biased résumé screening may reflect data or a poorly chosen metric. Affected people need an accessible appeal without having to understand the technology. Responsibility should follow control and foreseeable risk, with the deploying institution clearly accountable for explanation and correction.",
+    "analysis": "Separate stages, illustrate a causal ambiguity, then protect the affected person's route to remedy. This is an ethical position, not legal advice. Avoid saying that any one cause explains every automated error.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "部署",
+        "pinyin": "bùshǔ",
+        "english": "deploy"
+      },
+      {
+        "word": "申诉",
+        "pinyin": "shēnsù",
+        "english": "appeal"
+      }
+    ],
+    "followUp": "如果人类审核者也同意了错误结果呢？",
+    "prep": 45,
+    "seconds": 150,
+    "free": true,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-topic-2",
+    "level": 6,
+    "part": "topic",
+    "title": "Is every useful thing measurable?",
+    "prompt": "无法量化的成果应该怎样得到认可？",
+    "pinyin": "Wúfǎ liànghuà de chéngguǒ yīnggāi zěnyàng dédào rènkě?",
+    "translation": "How should outcomes that resist quantification receive recognition?",
+    "answer": "我认为，难以量化不等于无法评价。以教师的工作为例，考试成绩容易记录，但帮助学生建立信心、改善同伴关系，同样有价值。问题在于，如果只采用单一数字，人们会逐渐把精力集中到数字本身，而忽略教育的目的。因此，可以把数量指标与案例记录、长期观察和多方反馈结合起来。这样的评价成本更高，也可能带来主观偏差，所以标准需要公开，结论需要允许复核。我的主张不是取消数据，而是让数据回答它能够回答的问题，并为无法被压缩成分数的成果保留表达空间。",
+    "answerEnglish": "Hard to quantify does not mean impossible to evaluate. Teachers influence confidence and relationships as well as test results. A single metric can redirect effort toward the number instead of the purpose. Combining data with cases, longitudinal observation and multiple perspectives helps, but adds cost and subjectivity. Public criteria and review are needed. Data should answer suitable questions while leaving room for other forms of evidence.",
+    "analysis": "Define the distinction immediately. Balance your proposed qualitative process with its cost and bias. The final sentence limits the role of data without rejecting it.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "量化",
+        "pinyin": "liànghuà",
+        "english": "quantify"
+      },
+      {
+        "word": "复核",
+        "pinyin": "fùhé",
+        "english": "review again"
+      }
+    ],
+    "followUp": "多方反馈相互冲突时怎么办？",
+    "prep": 45,
+    "seconds": 150,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  },
+  {
+    "id": "L6-topic-3",
+    "level": 6,
+    "part": "topic",
+    "title": "Changing your mind in public",
+    "prompt": "公开改变观点是软弱，还是一种能力？",
+    "pinyin": "Gōngkāi gǎibiàn guāndiǎn shì ruǎnruò, háishi yì zhǒng nénglì?",
+    "translation": "Is publicly changing your mind a weakness or a skill?",
+    "answer": "我更愿意把它看作一种能力，但前提是改变来自新的证据或更充分的思考，而不是单纯迎合压力。坚持立场有时体现原则，也可能只是维护面子；同样，改变观点既可能是学习，也可能是缺乏判断。因此，关键不是是否改变，而是能否解释改变的理由。例如，原本支持某项城市建设的人，在了解居民通行困难后调整方案，并不一定背叛原来的公共利益目标。公开说明哪些事实发生变化、哪些价值仍然坚持，反而能增加讨论的透明度。我认为值得尊重的，是既有稳定的原则，又愿意修正具体判断的人。",
+    "answerEnglish": "It can be a skill when driven by evidence rather than pressure. Both persistence and change can reflect good or poor judgment, so reasons matter. A supporter of a city project may revise its design after learning about access problems without abandoning public-interest goals. Explaining changed facts and enduring values makes discussion more transparent. Stable principles can coexist with revisable judgments.",
+    "analysis": "Reject the false binary by giving conditions for each side. The city example distinguishes a value from a proposed means. End with a criterion, not a slogan about always being open-minded.",
+    "hint": "Position → reason → concrete example → qualification → closing point.",
+    "mistakes": [
+      "Delaying the answer with a memorized introduction.",
+      "Giving claims without a specific example or qualifying condition."
+    ],
+    "vocab": [
+      {
+        "word": "迎合",
+        "pinyin": "yínghé",
+        "english": "cater to"
+      },
+      {
+        "word": "透明度",
+        "pinyin": "tòumíngdù",
+        "english": "transparency"
+      }
+    ],
+    "followUp": "怎样区分坚持原则与固执？",
+    "prep": 45,
+    "seconds": 150,
+    "free": false,
+    "scene": null,
+    "task": "topic",
+    "formatNote": "Independent skill drill; see the official sample for your level. Timings are practice presets, not a full official paper."
+  }
+]
